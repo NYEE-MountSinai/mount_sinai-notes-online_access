@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 20:44:26 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 20:44:22 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[MiDOC - Technical Specification Sheet v1. 0]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 20:47:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 20:47:45 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[MiDOC - Technical Specification Sheet v1. 0]]></title><description><![CDATA[ 
  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>(No components were listed in the provided document.)]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-specification-sheet-v1.-0.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC - Technical Specification Sheet v1. 0.md</guid><pubDate>Mon, 17 Mar 2025 13:54:59 GMT</pubDate></item><item><title><![CDATA[Outflow Through Different Gauge Needles to Ambient Pressure]]></title><description><![CDATA[ 
  <br><br><br>IV bag -&gt; MiDOC -&gt; 22g needle -&gt; AC<br>AC -&gt; stop cock -&gt; 25g vs 27g vs 30g needle -&gt; air<br><br>
 <br>Allow the IOP to stabilize to the IV bag pressure
@@ -49,7 +49,7 @@ Stop the MiDOC
 <br><br><a data-href="MiDOC - Potential Sources of Error Analysis" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Analysis</a><br>
 <br><br><br>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Movement of the Eye, Patient, &amp; Surgeon" data-href="MiDOC - Potential Sources of Error Analysis#Movement of the Eye, Patient, &amp; Surgeon" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Movement_of_the_Eye,_Patient,_&amp;_Surgeon" class="internal-link" target="_self" rel="noopener nofollow">Movement of the eye / patient / surgeon</a>
-<br>Oscillations induced by swinging of the bag on the IV pole
+<br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Oscillations of the IV Bag" data-href="MiDOC - Potential Sources of Error Analysis#Oscillations of the IV Bag" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Oscillations_of_the_IV_Bag" class="internal-link" target="_self" rel="noopener nofollow">Oscillations of the IV Bag</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Blockages / Kinks in the Line" data-href="MiDOC - Potential Sources of Error Analysis#Blockages / Kinks in the Line" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Blockages_\_Kinks_in_the_Line" class="internal-link" target="_self" rel="noopener nofollow">Blockages &amp; Kinks in the Line</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Leveling" data-href="MiDOC - Potential Sources of Error Analysis#Leveling" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Leveling" class="internal-link" target="_self" rel="noopener nofollow">Leveling</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Vibrations" data-href="MiDOC - Potential Sources of Error Analysis#Vibrations" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Vibrations" class="internal-link" target="_self" rel="noopener nofollow">Vibrations in the room / Enviroment</a>
@@ -409,81 +409,7 @@ Purging the line after the silicone injection port requires a time delay that is
 324: "Pressure Impulse 3",<br>
 }<br>  P3_TARE: 97.559491659042<br>
 P4_TARE: 95.18772751663559<br>
-<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 17 Mar 2025 20:36:52 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IV Bag Oscillation Analysis]]></title><description><![CDATA[ 
- <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/0wo0g2vutjxp9syogax87/AMKkgjLe4oy3ekS_Hk7gZ6Y?rlkey=vb7zc3qxqetz070njl2oi14u9&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/0wo0g2vutjxp9syogax87/AMKkgjLe4oy3ekS_Hk7gZ6Y?rlkey=vb7zc3qxqetz070njl2oi14u9&amp;dl=0</a><br><br><br>This analysis examines the effects of raising or lowering an IV bag on pressure and flow readings. The experiment involves:<br>
-<br>An IV bag connected to a monitoring system
-<br>Rapid raising/lowering of the bag to induce oscillations
-<br>Continuous monitoring of:
-
-<br>Pressure readings (P1-P4) in mmHg
-<br>Flow rate (Flow Q) in µL/min
-<br>Time in seconds
-
-
-<br><br>The primary objectives are to:<br>
-<br>Quantify the amplitude of oscillations in Pressure 3, Pressure 4, and Flow Q
-<br>Determine the time required for oscillations to stabilize (past 50 points within 0.1 mmHg of their mean)
-<br>Assess the statistical significance of these effects across multiple trials
-<br><br>
-<br>Data is collected in CSV format with columns: time, pressures, flow rates
-<br>Python script analyzes multiple CSV files
-<br>Initial oscillation amplitude is calculated from detected peaks in the raw data
-<br>Decay time is defined as the first point where the previous 50 points are all within 0.1 mmHg of their mean
-<br>Results are visualized with:
-
-<br>Individual plots for each trial showing raw data, peaks, and decay time
-<br>Summary box plots of amplitudes and decay times
-
-
-<br><br>[Results will be automatically generated and saved in the 'iv_bag_analysis_results' directory]<br>
-<br>
-Individual Trial Plots (plot_file_*.png):
-
-<br>Blue line: Raw data
-<br>Black dots: Detected oscillation peaks
-<br>Green dashed line: Decay time (when past 50 points are within 0.1 mmHg of their mean)
-<br>Black dashed line: Steady-state baseline (mean of last 20% of data)
-
-
-<br>
-Summary Statistics (summary_stats.png):
-
-<br>Box plots showing distribution of:
-
-<br>Oscillation amplitudes for P3, P4, and Flow Q
-<br>Decay times for each parameter
-
-
-
-
-<br>
-Numerical Results:
-
-<br>Printed to console with averages and standard deviations for:
-
-<br>Oscillation amplitudes
-<br>Decay times
-
-
-
-
-<br><br>
-<br>Larger amplitudes indicate greater disturbance from bag movement
-<br>Longer decay times suggest slower system stabilization (time until past 50 points vary by less than 0.1 mmHg)
-<br>Variability across trials (standard deviation) shows consistency of effects
-<br>To use:<br>
-<br>Run iv_bag_analysis.py
-<br>Select your CSV files
-<br>Check the results directory for plots and console for numerical summary
-<br>Note: For Flow Q (in µL/min), the 0.15 threshold is applied in its native units. If different stability criteria or window sizes are needed, modify the stability_threshold or window_size parameters in the script.<br><br>Pressure 3 (mmHg):<br>
-Average Amplitude: 3.30<br>
-Std Dev Amplitude: 3.12<br>
-Average Decay Time: 8.20s<br>
-Std Dev Decay Time: 2.49s<br>Pressure 4 (mmHg):<br>
-Average Amplitude: 3.40<br>
-Std Dev Amplitude: 3.25<br>
-Average Decay Time: 7.92s<br>
-Std Dev Decay Time: 2.62s<br><img src="lib\media\plot_file_2-4.png"><img src="lib\media\plot_file_1-4.png"><img src="lib\media\plot_file_3-4.png"><img src="lib\media\summary_stats-4.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\iv-bag-oscillations\250318-midoc-bag-oscillation-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/IV bag Oscillations/250318 - MiDOC Bag Oscillation Testing.md</guid><pubDate>Tue, 18 Mar 2025 20:42:40 GMT</pubDate><enclosure url="lib\media\plot_file_2-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\plot_file_2-4.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[ 
+<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 17 Mar 2025 20:36:52 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[ 
  <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0</a><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to varying magnitudes of pressure<br><br>
 <br>Elevated IV Bag -&gt; P3 -&gt; P4 -&gt; Stop Cock
 <br>Fill up the IV bag to 45 mmHg
@@ -497,7 +423,7 @@ Std Dev Decay Time: 2.62s<br><img src="lib\media\plot_file_2-4.png"><img src="li
 NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg]]></description><link>mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md</guid><pubDate>Tue, 18 Mar 2025 18:57:54 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\figure_1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
  <br><br>To identify sources of error for the MiDOC device, their magnitudes, and the methods to mitigate them.<br><br>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Movement of the Eye, Patient, &amp; Surgeon" data-href="MiDOC - Potential Sources of Error Analysis#Movement of the Eye, Patient, &amp; Surgeon" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Movement_of_the_Eye,_Patient,_&amp;_Surgeon" class="internal-link" target="_self" rel="noopener nofollow">Movement of the eye / patient / surgeon</a>
-<br>Oscillations induced by swinging of the bag on the IV pole
+<br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Oscillations of the IV Bag" data-href="MiDOC - Potential Sources of Error Analysis#Oscillations of the IV Bag" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Oscillations_of_the_IV_Bag" class="internal-link" target="_self" rel="noopener nofollow">Oscillations of the IV Bag</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Blockages / Kinks in the Line" data-href="MiDOC - Potential Sources of Error Analysis#Blockages / Kinks in the Line" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Blockages_\_Kinks_in_the_Line" class="internal-link" target="_self" rel="noopener nofollow">Blockages &amp; Kinks in the Line</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Leveling" data-href="MiDOC - Potential Sources of Error Analysis#Leveling" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Leveling" class="internal-link" target="_self" rel="noopener nofollow">Leveling</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Vibrations" data-href="MiDOC - Potential Sources of Error Analysis#Vibrations" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Vibrations" class="internal-link" target="_self" rel="noopener nofollow">Vibrations in the room / Enviroment</a>
@@ -517,23 +443,18 @@ NOTE: The sensors are not tared so the important attribute of this plot is that 
 <br>Location of the needle (how centered it is when inserted)
 
 
-<br><br><br>Effect:<br>
-Mitigation:<br><br>Effect: The IV bag swinging on the pole causes a certain amount of pressure fluctuations during the procedure as outlined below. If we have an IV bag with the following characteristics<br>
+<br><br><br>Effect: Extremely High<br>
+Mitigation: Everyone needs to stay still during data collection.<br><br>Effect: The IV bag swinging on the pole causes a certain amount of pressure fluctuations during the procedure as outlined below. If we have an IV bag with the following characteristics<br>
 <br>IV bag height: 10 inches
 <br>Swing angle: 10 degrees
 <br>Density of the fluid: Assuming it’s water or a similar solution (ρ ≈ 1002 kg/m³)
 <br>Gravity: 9.81 m/s²
 <br>Pressure sensor is assumed to be at a fixed point below the IV bag.
 <br>When the IV bag swings, the vertical position of the lowest point of the bag changes. The height change (Δh) is given by:<br><br>where:<br>
-<br> inches (converted to meters: 10 in × 0.0254 = 0.254 m)
+<br> inches (converted to meters: )
 <br> (converted to radians: )
-<br>Now, calculating:<br>,<br>&nbsp;(or&nbsp;3.86&nbsp;mm)<br>The pressure change due to a height difference Δh\Delta hΔh in a fluid column is:<br>ΔP=ρgΔh\Delta P = \rho g \Delta hΔP=ρgΔh<br>Substituting values:<br>ΔP=(1000&nbsp;kg/m3)×(9.81&nbsp;m/s2)×(0.00386&nbsp;m)\Delta P = (1000 \text{ kg/m}^3) \times (9.81 \text{ m/s}^2) \times (0.00386 \text{ m})ΔP=(1000&nbsp;kg/m3)×(9.81&nbsp;m/s2)×(0.00386&nbsp;m) ΔP≈37.8&nbsp;Pa\Delta P \approx 37.8 \text{ Pa}ΔP≈37.8&nbsp;Pa<br><br>Since 1 mmHg ≈ 133.3 Pa,<br>ΔP≈37.8133.3≈0.28&nbsp;mmHg\Delta P \approx \frac{37.8}{133.3} \approx 0.28 \text{ mmHg}ΔP≈133.337.8​≈0.28&nbsp;mmHg<br><br>Effect: The scaling and accuracy of the pressure sensors is documented in the testing: <a data-href="250318 - MiDOC Pressure Sensor Consistency Testing" href="mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250318 - MiDOC Pressure Sensor Consistency Testing</a><br>
-<br><br><br><img src="lib\media\figure_1.png"><br>
-NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg<br>Mitigation: No mitigation is needed on this front as the average standard deviation of these sensors is 0.03 mm Hg.<br><br>Effect: The effect of the temperature on the flow calculation is shown below:<br><br>where:<br>
-<br>​ is the sensor’s temperature coefficient (Pa/°C).
-<br> is the operating temperature.
-<br>​ is the calibration temperature.
-<br>If we calibrate the sensor at  and measure the surgical case at , with the temperature coefficient of 0.2% per 10 K, the sensor may have a 0.2% offset.<br>From 70mmHg, this offset would be a 0.14 mm Hg difference. Fortunately, this should cancel out in the flow calculation math and only the pressure drop across the needle would have a 0.2% offset which, with a pressure drop of 5.0mmHg, would then yield a pressure offset of 0.01mmHg.<br>Mitigation: No mitigation is required for the temperature of these sensors as we are largely looking at the offset and therefore the effect of the temperature is minimal.<br><br>Effect: The effect of leveling the devices modifies the pressure sensor data by the following:<br>
+<br>Now, calculating:<br>&nbsp;<br>The pressure change due to a height difference (Δh) in a fluid column is:<br><br>Substituting values:<br>ΔP=(1000&nbsp;kg/m3)×(9.81&nbsp;m/s2)×(0.00386&nbsp;m) ≈ 37.8&nbsp;Pa ​≈ 0.28&nbsp;mmHg<br>Further, this decays quickly as shown in the <a data-href="250318 - MiDOC Bag Oscillation Testing" href="mount_sinai-notes\projects\midoc\testing\iv-bag-oscillations\250318-midoc-bag-oscillation-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250318 - MiDOC Bag Oscillation Testing</a> with a maximum decay time (where the pressure values are within 0.1mm Hg of true pressure) of 12 seconds.<br>Mitigation: Wait 15 seconds after raising or lowering the IV bag prior to starting data collection.<br><br>Effect: High. This would be a dominate effect on the testing.<br>
+Mitigation: Ensure no blockages / kinks in the line prior to testing.<br><br>Effect: The effect of leveling the devices modifies the pressure sensor data by the following:<br>
 <br>
 where:<br>
 <br> is the height misalignment ()
@@ -543,9 +464,15 @@ where:<br>
 <br>
 <br>
 <br>so, therefore, the total inaccuracy between pressure sensors could be:<br>
-<br>This would be a dominating factor of the calculation and therefore we must keep the devices level to within 0.1mmHg:<br>
+<br>Mitigation: This 0.982 mm Hg would be a dominating factor of the calculation and therefore we must keep the devices level to within 0.1mmHg:<br>
 <br>
  Maximum height discrepancy<br>Therefore,  to achieve a pressure sensor accuracy of 0.1mmHg, the devices must be on a table with a maximum slant of:<br>
- <br>Mitigation: We need to ensure the operating table is level prior to completing the test.<br><br>Effect: <br><br>Effect: Air bubbles trapped in the system introduce compliance, reducing the measured pressure difference.<br>
-Mitigation: Lines must be purged entirely prior to use of the MiDOC. Failure to do so will result in wildly varying results.<br><br>Effect: Raising the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> while being live connected to the pressure sensors creates a large amount of oscillations and data noise that inhibits proper measurement.<br>Mitigation: Using a <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> in between the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> and pressure sensors prevents transmission of pressure between the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> and Pressure Sensors.<br><br>Effect: Any leak between the pressure sensors or after the pressure sensors in line will overshadow any calculation<br>
-Mitigation: Every line must be checked for leaks before the test starts and after it completes to ensure the data received was good.<br><br>TBD<br><br>TBD]]></description><link>mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/Verification/MiDOC - Potential Sources of Error Analysis.md</guid><pubDate>Tue, 18 Mar 2025 20:18:07 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\figure_1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+ <br>We need to ensure the operating table is level prior to completing the test.<br><br>TBD<br><br>Effect: Air bubbles trapped in the system introduce compliance, reducing the measured pressure difference.<br>
+Mitigation: Lines must be purged entirely prior to use of the MiDOC. Failure to do so will result in wildly varying results. Further, when priming the <a data-href="Infusion Set" href="mount_sinai-notes\projects\midoc\hardware\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a>, we must open the air relief valve and squeeze the vial until largely full to ensure no air bubbles go down the iv tube.<br><br>Effect: Any leak between the pressure sensors or after the pressure sensors in line will overshadow any calculation<br>
+Mitigation: Every line must be checked for leaks before the test starts and after it completes to ensure the data received was good.<br><br>Effect: Raising the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> while being live connected to the pressure sensors creates a large amount of oscillations and data noise that inhibits proper measurement.<br>Mitigation: Using a <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> in between the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> and <a data-href="pressure sensors" href="mount_sinai-notes\projects\midoc\hardware\pressure-sensors.html" class="internal-link" target="_self" rel="noopener nofollow">pressure sensors</a> prevents transmission of pressure between the <a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> and Pressure Sensors.<br><br>Effect: The scaling and accuracy of the pressure sensors is documented in the testing: <a data-href="250318 - MiDOC Pressure Sensor Consistency Testing" href="mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250318 - MiDOC Pressure Sensor Consistency Testing</a><br>
+<br><br><br><img src="lib\media\figure_1.png"><br>
+NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg<br>Mitigation: No mitigation is needed on this front as the average standard deviation of these sensors is 0.03 mm Hg.<br><br>Effect: The effect of the temperature on the flow calculation is shown below:<br><br>where:<br>
+<br>​ is the sensor’s temperature coefficient (Pa/°C).
+<br> is the operating temperature.
+<br>​ is the calibration temperature.
+<br>If we calibrate the sensor at  and measure the surgical case at , with the temperature coefficient of 0.2% per 10 K, the sensor may have a 0.2% offset.<br>From 70mmHg, this offset would be a 0.14 mm Hg difference. Fortunately, this should cancel out in the flow calculation math and only the pressure drop across the needle would have a 0.2% offset which, with a pressure drop of 5.0mmHg, would then yield a pressure offset of 0.01mmHg.<br>Mitigation: No mitigation is required for the temperature of these sensors as we are largely looking at the offset and therefore the effect of the temperature is minimal.<br><br>TBD]]></description><link>mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/Verification/MiDOC - Potential Sources of Error Analysis.md</guid><pubDate>Tue, 18 Mar 2025 20:44:27 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\figure_1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
