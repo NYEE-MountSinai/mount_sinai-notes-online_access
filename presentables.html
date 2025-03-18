@@ -1,8 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=https://nyee-mountsinai.github.io/mount_sinai-notes/projects/midoc/overview/midoc-presentables-250317.html">
+    <title>Redirect Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h2>Access Document</h2>
+        <button onclick="redirectToDoc()">Go to Document</button>
+    </div>
+
+    <script>
+        function redirectToDoc() {
+            window.location.href = "https://nyee-mountsinai.github.io/mount_sinai-notes/projects/midoc/overview/midoc-presentables-250317.html";
+        }
+    </script>
 </body>
 </html>

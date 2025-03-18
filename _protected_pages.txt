@@ -1,2 +1,2 @@
-mount_sinai-notes/joseph_debrief.html eyeballz
-mount_sinai-notes/presentables.html eyeballz
+joseph_debrief.html eyeballz
+presentables.html eyeballz
