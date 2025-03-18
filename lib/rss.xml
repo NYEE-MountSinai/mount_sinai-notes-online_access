@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 20:47:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 20:47:45 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[MiDOC - Technical Specification Sheet v1. 0]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>(No components were listed in the provided document.)]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-specification-sheet-v1.-0.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC - Technical Specification Sheet v1. 0.md</guid><pubDate>Mon, 17 Mar 2025 13:54:59 GMT</pubDate></item><item><title><![CDATA[Outflow Through Different Gauge Needles to Ambient Pressure]]></title><description><![CDATA[ 
- <br><br><br>IV bag -&gt; MiDOC -&gt; 22g needle -&gt; AC<br>AC -&gt; stop cock -&gt; 25g vs 27g vs 30g needle -&gt; air<br><br>
-<br>Allow the IOP to stabilize to the IV bag pressure
-<br>Screw in the 25g needle
-<br>Open the stop cock to induce a leak through the needle to air
-<br>Repeat for the 27g and 30g needle
-<br><br><img alt="Outflow Through Different Gauge Needles to Ambiant Pressure.png" src="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png"><br><br><br>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 21:10:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 21:10:08 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[MiDOC - Technical Specification Sheet v1. 0]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>(No components were listed in the provided document.)]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-specification-sheet-v1.-0.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC - Technical Specification Sheet v1. 0.md</guid><pubDate>Mon, 17 Mar 2025 13:54:59 GMT</pubDate></item><item><title><![CDATA[Full MiDOC Procedure Test on Porcine Eye]]></title><description><![CDATA[ 
+ <br><br><br>The goal of this test is to understand how the eye responds to fluid and pressure before and after a surgical procedure. By raising the IV bag, we create gentle pressure changes in the eye and record how it responds. Then, we perform a procedure to create a tiny leak in the eye and repeat the pressure changes. This creates signature features in the pressure and flow data that reveals post-operative insights.<br><br>
 <br>Setup the MiDOC and insert it into the eye
 <br>Create 3 Pressure Impulses by elevating the height of the IV bag to create a signature which captures features such as the ocular compliance / outflow facility of the eye
 <br>Continue with the surgical procedure (in this case a 30g needle was inserted into the eye to induce a leak)
 <br>Repeat step 2 to capture Pressure and Flow features after the surgical intervention<br>
-<img alt="image-73.png" src="lib\media\image-73.png">
-<br>]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-presentables-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Presentables - 250317.md</guid><pubDate>Tue, 18 Mar 2025 18:59:57 GMT</pubDate><enclosure url="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Procedure]]></title><description><![CDATA[ 
- <br><br>
+<img src="lib\media\image-73.png">
+<br><br><br>The goal of this test is to demonstrate the functionality of the device by creating varying sizes of leaks in the eye and observing the Pressure and Flow responses.<br><br>IV bag -&gt; MiDOC -&gt; 22g needle -&gt; AC<br>AC -&gt; stop cock -&gt; 25g vs 27g vs 30g needle -&gt; air<br><br>
+<br>Allow the IOP to stabilize to the IV bag pressure
+<br>Screw in the 25g needle
+<br>Open the stop cock to induce a leak through the needle to air
+<br>Repeat for the 27g and 30g needle
+<br><br><img src="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png"><br><br><br><br><br><br><br>
 <br>Place the sensors on a level surface
 <br>Connect the sensors to the MiDOC<br>
 - P3 is upstream<br>
@@ -21,14 +20,14 @@ Launch the MiDOC program
 <br>Tare in air
 <br>hook up the setup (below)
 
-<br>IV bag -&gt; Stop Cock -&gt; microbore tubing -&gt; P3 -&gt; microbore tubing -&gt; 27g x 1/2" Needle -&gt; Injection Site -&gt; P4 -&gt; 22g x TODO needle
+<br><a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> -&gt; <a data-href="Infusion Set" href="mount_sinai-notes\projects\midoc\hardware\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a> -&gt; <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> 1 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; P3 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; <a data-href="27g x half inch Needle" href="mount_sinai-notes\projects\midoc\hardware\27g-x-half-inch-needle.html" class="internal-link" target="_self" rel="noopener nofollow">27g x half inch Needle</a> -&gt; Injection Site -&gt; P4 -&gt; 22g x 1/2" Needle
 
 
 <br>Purge the lines ensuring there is absolutely no air anywhere inline
 <br>Secure the sensors to a level surface
 <br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
 Press start on the MiDOC
-<br>Make the incision and insert the AC Maintainer<br>
+<br>Make the incision and insert the needle into the anterior chamber<br>
 Add a "MiDOC insertion" comment
 <br>Wait 5 s<br>
 Add a "Test Start" comment
@@ -39,12 +38,47 @@ Add a "Flow Stop" comment
 Add a "Bag Raise to X mmHg" comment
 <br>Quickly enable the flow using the stop cock<br>
 Add a "Flow Enabled" comment
-<br>Wait 15 s
 <br>Repeat steps (10-13) 2X additional times<br>
 Add a "Test End" Comment
+<br>Wait 15 seconds
 <br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
 Continue monitoring and add procedure comments appropriately
-<br>After surgical intervention steps (i.e. ) repeat steps (9-15) once.<br>
+<br>After surgical intervention steps repeat steps (9-15) once<br>
+Stop the MiDOC
+]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-presentables-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Presentables - 250317.md</guid><pubDate>Tue, 18 Mar 2025 21:09:13 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Procedure]]></title><description><![CDATA[ 
+ <br><br>
+<br>Place the sensors on a level surface
+<br>Connect the sensors to the MiDOC<br>
+- P3 is upstream<br>
+- P4 is downstream<br>
+Launch the MiDOC program
+<br>Tare in air
+<br>hook up the setup (below)
+
+<br><a data-href="IV bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> -&gt; <a data-href="Infusion Set" href="mount_sinai-notes\projects\midoc\hardware\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a> -&gt; <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> 1 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; P3 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; <a data-href="27g x half inch Needle" href="mount_sinai-notes\projects\midoc\hardware\27g-x-half-inch-needle.html" class="internal-link" target="_self" rel="noopener nofollow">27g x half inch Needle</a> -&gt; Injection Site -&gt; P4 -&gt; 22g x 1/2" Needle
+
+
+<br>Purge the lines ensuring there is absolutely no air anywhere inline
+<br>Secure the sensors to a level surface
+<br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
+Press start on the MiDOC
+<br>Make the incision and insert the needle into the anterior chamber<br>
+Add a "MiDOC insertion" comment
+<br>Wait 5 s<br>
+Add a "Test Start" comment
+<br>Wait 15 s
+<br>Stop the flow using the stop cock<br>
+Add a "Flow Stop" comment
+<br>Raise the height of the IV bag by 13 mmHg (The next mark up  - 8.028 inches)<br>
+Add a "Bag Raise to X mmHg" comment
+<br>Quickly enable the flow using the stop cock<br>
+Add a "Flow Enabled" comment
+<br>Repeat steps (10-13) 2X additional times<br>
+Add a "Test End" Comment
+<br>Wait 15 seconds
+<br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
+Continue monitoring and add procedure comments appropriately
+<br>After surgical intervention steps repeat steps (9-15) once<br>
 Stop the MiDOC
 <br><br><a data-href="MiDOC - Potential Sources of Error Analysis" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Analysis</a><br>
 <br><br><br>
@@ -69,7 +103,7 @@ Stop the MiDOC
 <br>Location of the needle (how centered it is when inserted)
 
 
-<br><br><br><br><br><br><br><br><br><br><a data-href="250317 - Full Procedure Testing" href="mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250317 - Full Procedure Testing</a>]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Tue, 18 Mar 2025 20:40:16 GMT</pubDate></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><a data-href="250317 - Full Procedure Testing" href="mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250317 - Full Procedure Testing</a>]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Tue, 18 Mar 2025 20:59:54 GMT</pubDate></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
  <br>Note
 This test is to calibrate the Pressure Flow (PF) relationship.<br>
 It is not indicative of the actual setup that the MiDOC will be used in!<br>
