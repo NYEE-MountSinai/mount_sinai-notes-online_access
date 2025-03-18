@@ -1,23 +1,60 @@
 {
   "vaultName": "mount_sinai-notes-SHARED",
-  "lastExport": 1742246056628,
+  "lastExport": 1742324625560,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Current State - Technical Breakdown - 240919.md",
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Technical Specification Sheet v1. 0.md",
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Presentables - 250317.md",
     "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Technical Breakdown - 250317.md",
+    "mount_sinai-notes/projects/MiDOC/Hardware/BOM and Gerber View.md",
+    "mount_sinai-notes/projects/MiDOC/Hardware/Datasheets.md",
+    "mount_sinai-notes/projects/MiDOC/Intellectual Property/Patent US 20210353145.md",
+    "mount_sinai-notes/projects/MiDOC/Math/MiDOC Flow Math.md",
+    "mount_sinai-notes/projects/MiDOC/Questions/Questions.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250114 MiDOC Flow vs Pressure Testing.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250203 MiDOC Flow vs Pressure vs Time Testing.md",
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250228 - 250305 MiDOC Flow vs Pressure Testing.md",
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250307 - MiDOC Flow vs Pressure Relationship.md",
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250310 - MiDOC Flow vs Pressure Relationship.md",
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250311 - MiDOC Flow vs Pressure Relationship.md",
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs scale vs volume testing/250311 - MiDOC flow vs scale vs volume testing.md",
     "mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md",
-    "lib/media/pressure_flow_plot3-5.png",
-    "lib/media/pressure_flow_plot2-5.png",
-    "lib/media/pressure_flow_plot1-5.png",
-    "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png",
-    "lib/media/image-73.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/IRB/IRB Study Protocol.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/IRB/MiDOC Procedure.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250312 - MiDOC Pressure Sensor Consistency Testing.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/Cadaveric Testing 241029.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/IanTrek Test Protocol 241029.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/MiDOC Stepper Flow Testing.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/Test Protocol - Pressure Calibration Procedure.md",
+    "mount_sinai-notes/projects/MiDOC/Testing/Test Report - Pressure Calibration Template.md",
+    "mount_sinai-notes/projects/MiDOC/Software Icon.md",
+    "lib/media/midoc-flow-math-20241105125649088.webp",
+    "lib/media/midoc-flow-math-20241105125658038.webp",
+    "lib/media/midoc-flow-math-20241105125704322.webp",
+    "lib/media/midoc-flow-math-20241105125711142.webp",
+    "lib/media/midoc-flow-math-20241105125719043.webp",
+    "lib/media/midoc-flow-math-20241104163620537.webp",
+    "lib/media/midoc-flow-math-20241105105931869.webp",
+    "lib/media/midoc-flow-math-20241105105942299.webp",
+    "lib/media/midoc-flow-math-20241105110420288.webp",
+    "lib/media/midoc-flow-math-20241105110429168.webp",
+    "lib/media/midoc-flow-math-20241105115724670.webp",
+    "lib/media/midoc-flow-math-20241105115733889.webp",
+    "lib/media/midoc-flow-math-20241105115750733.webp",
+    "lib/media/midoc-flow-math-20241105115819175.webp",
+    "lib/media/midoc-flow-math-20241105115835198.webp",
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151738312.webp",
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151807995.webp",
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151833182.webp",
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143018610.webp",
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143135297.webp",
+    "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124400267.webp",
+    "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124310764.webp",
     "lib/media/image-43.png",
     "lib/media/image-44.png",
     "lib/media/image-45.png",
@@ -44,6 +81,13 @@
     "lib/media/pressure_flow_plot3-4.png",
     "lib/media/pressure_flow_plot1-4.png",
     "lib/media/pressure_flow_plot2-4.png",
+    "lib/media/pressure_flow_plot3-5.png",
+    "lib/media/pressure_flow_plot2-5.png",
+    "lib/media/pressure_flow_plot1-5.png",
+    "lib/media/image-73.png",
+    "lib/media/figure_1.png",
+    "lib/media/figure_2.png",
+    "lib/media/gemini_generated_image_sik8a5sik8a5sik8.jpeg",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -95,7 +139,8 @@
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -152,20 +197,334 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Presentables - 250317.md": {
+      "modifiedTime": 1742324569213,
+      "sourceSize": 971,
+      "exportedPath": "mount_sinai-notes/projects/midoc/1-pager/midoc-presentables-250317.html",
+      "dependencies": [
+        "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png",
+        "lib/media/image-73.png"
+      ]
+    },
     "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Technical Breakdown - 250317.md": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 3469,
+      "modifiedTime": 1742324569213,
+      "sourceSize": 3101,
       "exportedPath": "mount_sinai-notes/projects/midoc/1-pager/midoc-technical-breakdown-250317.html",
       "dependencies": [
         "lib/media/pressure_flow_plot3-5.png",
         "lib/media/pressure_flow_plot2-5.png",
         "lib/media/pressure_flow_plot1-5.png",
-        "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png",
+        "lib/media/figure_1.png",
+        "lib/media/figure_2.png",
         "lib/media/image-73.png"
       ]
     },
+    "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png": {
+      "modifiedTime": 1742324569213,
+      "sourceSize": 259395,
+      "exportedPath": "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png",
+      "dependencies": []
+    },
+    "lib/media/image-73.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 299452,
+      "exportedPath": "lib/media/image-73.png",
+      "dependencies": []
+    },
+    "lib/media/pressure_flow_plot3-5.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 156619,
+      "exportedPath": "lib/media/pressure_flow_plot3-5.png",
+      "dependencies": []
+    },
+    "lib/media/pressure_flow_plot2-5.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 85868,
+      "exportedPath": "lib/media/pressure_flow_plot2-5.png",
+      "dependencies": []
+    },
+    "lib/media/pressure_flow_plot1-5.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 182112,
+      "exportedPath": "lib/media/pressure_flow_plot1-5.png",
+      "dependencies": []
+    },
+    "lib/media/figure_1.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 124271,
+      "exportedPath": "lib/media/figure_1.png",
+      "dependencies": []
+    },
+    "lib/media/figure_2.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 27351,
+      "exportedPath": "lib/media/figure_2.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 20696,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 4091,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 137567,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 10101,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 337,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 2327,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Current State - Technical Breakdown - 240919.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 0,
+      "exportedPath": "mount_sinai-notes/projects/midoc/1-pager/midoc-current-state-technical-breakdown-240919.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Technical Specification Sheet v1. 0.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 5637,
+      "exportedPath": "mount_sinai-notes/projects/midoc/1-pager/midoc-technical-specification-sheet-v1.-0.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Hardware/BOM and Gerber View.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 36,
+      "exportedPath": "mount_sinai-notes/projects/midoc/hardware/bom-and-gerber-view.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Hardware/Datasheets.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 114,
+      "exportedPath": "mount_sinai-notes/projects/midoc/hardware/datasheets.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Intellectual Property/Patent US 20210353145.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 30,
+      "exportedPath": "mount_sinai-notes/projects/midoc/intellectual-property/patent-us-20210353145.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Math/MiDOC Flow Math.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 3692,
+      "exportedPath": "mount_sinai-notes/projects/midoc/math/midoc-flow-math.html",
+      "dependencies": [
+        "lib/media/midoc-flow-math-20241105125649088.webp",
+        "lib/media/midoc-flow-math-20241105125658038.webp",
+        "lib/media/midoc-flow-math-20241105125704322.webp",
+        "lib/media/midoc-flow-math-20241105125711142.webp",
+        "lib/media/midoc-flow-math-20241105125719043.webp",
+        "lib/media/midoc-flow-math-20241104163620537.webp",
+        "lib/media/midoc-flow-math-20241105105931869.webp",
+        "lib/media/midoc-flow-math-20241105105942299.webp",
+        "lib/media/midoc-flow-math-20241105110420288.webp",
+        "lib/media/midoc-flow-math-20241105110429168.webp",
+        "lib/media/midoc-flow-math-20241105115724670.webp",
+        "lib/media/midoc-flow-math-20241105115733889.webp",
+        "lib/media/midoc-flow-math-20241105115750733.webp",
+        "lib/media/midoc-flow-math-20241105115819175.webp",
+        "lib/media/midoc-flow-math-20241105115835198.webp"
+      ]
+    },
+    "mount_sinai-notes/projects/MiDOC/Questions/Questions.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 2471,
+      "exportedPath": "mount_sinai-notes/projects/midoc/questions/questions.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250114 MiDOC Flow vs Pressure Testing.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1395,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250114-midoc-flow-vs-pressure-testing.html",
+      "dependencies": [
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151738312.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151807995.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151833182.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143018610.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143135297.webp"
+      ]
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250203 MiDOC Flow vs Pressure vs Time Testing.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1282,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250203-midoc-flow-vs-pressure-vs-time-testing.html",
+      "dependencies": [
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151738312.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151807995.webp",
+        "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151833182.webp",
+        "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124400267.webp",
+        "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124310764.webp"
+      ]
+    },
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250228 - 250305 MiDOC Flow vs Pressure Testing.md": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 2681,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250228-250305-midoc-flow-vs-pressure-testing.html",
       "dependencies": [
@@ -175,8 +534,8 @@
       ]
     },
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250307 - MiDOC Flow vs Pressure Relationship.md": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 10191,
+      "modifiedTime": 1742324625560,
+      "sourceSize": 9966,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250307-midoc-flow-vs-pressure-relationship.html",
       "dependencies": [
         "lib/media/image-51.png",
@@ -193,8 +552,8 @@
       ]
     },
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250310 - MiDOC Flow vs Pressure Relationship.md": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 6343,
+      "modifiedTime": 1742324625560,
+      "sourceSize": 2038,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250310-midoc-flow-vs-pressure-relationship.html",
       "dependencies": [
         "lib/media/image-64.png",
@@ -209,8 +568,8 @@
       ]
     },
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250311 - MiDOC Flow vs Pressure Relationship.md": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 7179,
+      "modifiedTime": 1742324625560,
+      "sourceSize": 2875,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-pressure-testing/250311-midoc-flow-vs-pressure-relationship.html",
       "dependencies": [
         "lib/media/pressure_flow_plot3-4.png",
@@ -222,515 +581,508 @@
       ]
     },
     "mount_sinai-notes/projects/MiDOC/Testing/flow vs scale vs volume testing/250311 - MiDOC flow vs scale vs volume testing.md": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 976,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/flow-vs-scale-vs-volume-testing/250311-midoc-flow-vs-scale-vs-volume-testing.html",
       "dependencies": []
     },
     "mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 2170,
       "exportedPath": "mount_sinai-notes/projects/midoc/testing/full-procedure-porcine-testing/250317-full-procedure-testing.html",
       "dependencies": [
         "lib/media/image-73.png"
       ]
     },
-    "lib/media/pressure_flow_plot3-5.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 156619,
-      "exportedPath": "lib/media/pressure_flow_plot3-5.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/IRB/IRB Study Protocol.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 25341,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/irb/irb-study-protocol.html",
       "dependencies": []
     },
-    "lib/media/pressure_flow_plot2-5.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 85868,
-      "exportedPath": "lib/media/pressure_flow_plot2-5.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/IRB/MiDOC Procedure.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 161,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/irb/midoc-procedure.html",
       "dependencies": []
     },
-    "lib/media/pressure_flow_plot1-5.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 182112,
-      "exportedPath": "lib/media/pressure_flow_plot1-5.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250312 - MiDOC Pressure Sensor Consistency Testing.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1116,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/pressure-sensor-consistency-testing/250312-midoc-pressure-sensor-consistency-testing.html",
       "dependencies": []
     },
-    "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 259395,
-      "exportedPath": "lib/media/outflow-through-different-gauge-needles-to-ambiant-pressure.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1085,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/pressure-sensor-consistency-testing/250318-midoc-pressure-sensor-consistency-testing.html",
+      "dependencies": [
+        "lib/media/figure_1.png",
+        "lib/media/figure_2.png"
+      ]
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/Cadaveric Testing 241029.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 3011,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/cadaveric-testing-241029.html",
       "dependencies": []
     },
-    "lib/media/image-73.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 299452,
-      "exportedPath": "lib/media/image-73.png",
+    "mount_sinai-notes/projects/MiDOC/Testing/IanTrek Test Protocol 241029.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 5985,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/iantrek-test-protocol-241029.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/MiDOC Stepper Flow Testing.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 3959,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/midoc-stepper-flow-testing.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/Test Protocol - Pressure Calibration Procedure.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 811,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/test-protocol-pressure-calibration-procedure.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Testing/Test Report - Pressure Calibration Template.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 1010,
+      "exportedPath": "mount_sinai-notes/projects/midoc/testing/test-report-pressure-calibration-template.html",
+      "dependencies": []
+    },
+    "mount_sinai-notes/projects/MiDOC/Software Icon.md": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 57,
+      "exportedPath": "mount_sinai-notes/projects/midoc/software-icon.html",
+      "dependencies": [
+        "lib/media/gemini_generated_image_sik8a5sik8a5sik8.jpeg"
+      ]
+    },
+    "lib/media/midoc-flow-math-20241105125649088.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 138650,
+      "exportedPath": "lib/media/midoc-flow-math-20241105125649088.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105125658038.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 36604,
+      "exportedPath": "lib/media/midoc-flow-math-20241105125658038.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105125704322.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 97634,
+      "exportedPath": "lib/media/midoc-flow-math-20241105125704322.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105125711142.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 67616,
+      "exportedPath": "lib/media/midoc-flow-math-20241105125711142.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105125719043.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 55316,
+      "exportedPath": "lib/media/midoc-flow-math-20241105125719043.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241104163620537.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 89744,
+      "exportedPath": "lib/media/midoc-flow-math-20241104163620537.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105105931869.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 63388,
+      "exportedPath": "lib/media/midoc-flow-math-20241105105931869.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105105942299.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 365918,
+      "exportedPath": "lib/media/midoc-flow-math-20241105105942299.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105110420288.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 62696,
+      "exportedPath": "lib/media/midoc-flow-math-20241105110420288.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105110429168.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 83986,
+      "exportedPath": "lib/media/midoc-flow-math-20241105110429168.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105115724670.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 29582,
+      "exportedPath": "lib/media/midoc-flow-math-20241105115724670.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105115733889.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 38112,
+      "exportedPath": "lib/media/midoc-flow-math-20241105115733889.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105115750733.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 42856,
+      "exportedPath": "lib/media/midoc-flow-math-20241105115750733.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105115819175.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 41780,
+      "exportedPath": "lib/media/midoc-flow-math-20241105115819175.webp",
+      "dependencies": []
+    },
+    "lib/media/midoc-flow-math-20241105115835198.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 41384,
+      "exportedPath": "lib/media/midoc-flow-math-20241105115835198.webp",
+      "dependencies": []
+    },
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151738312.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 220908,
+      "exportedPath": "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151738312.webp",
+      "dependencies": []
+    },
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151807995.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 22368,
+      "exportedPath": "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151807995.webp",
+      "dependencies": []
+    },
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151833182.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 14870,
+      "exportedPath": "lib/media/250114-midoc-flow-vs-pressure-testing-20250114151833182.webp",
+      "dependencies": []
+    },
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143018610.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 60386,
+      "exportedPath": "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143018610.webp",
+      "dependencies": []
+    },
+    "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143135297.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 13674,
+      "exportedPath": "lib/media/250114-midoc-flow-vs-pressure-testing-20250114143135297.webp",
+      "dependencies": []
+    },
+    "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124400267.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 12536,
+      "exportedPath": "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124400267.webp",
+      "dependencies": []
+    },
+    "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124310764.webp": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 9250,
+      "exportedPath": "lib/media/250203-midoc-flow-vs-pressure-vs-time-testing-20250210124310764.webp",
       "dependencies": []
     },
     "lib/media/image-43.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 225557,
       "exportedPath": "lib/media/image-43.png",
       "dependencies": []
     },
     "lib/media/image-44.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 47873,
       "exportedPath": "lib/media/image-44.png",
       "dependencies": []
     },
     "lib/media/image-45.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 198508,
       "exportedPath": "lib/media/image-45.png",
       "dependencies": []
     },
     "lib/media/image-51.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 137712,
       "exportedPath": "lib/media/image-51.png",
       "dependencies": []
     },
     "lib/media/image-52.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 260261,
       "exportedPath": "lib/media/image-52.png",
       "dependencies": []
     },
     "lib/media/image-53.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 293501,
       "exportedPath": "lib/media/image-53.png",
       "dependencies": []
     },
     "lib/media/image-57.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 145690,
       "exportedPath": "lib/media/image-57.png",
       "dependencies": []
     },
     "lib/media/image-58.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 122704,
       "exportedPath": "lib/media/image-58.png",
       "dependencies": []
     },
     "lib/media/image-59.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 195233,
       "exportedPath": "lib/media/image-59.png",
       "dependencies": []
     },
     "lib/media/image-47.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 83209,
       "exportedPath": "lib/media/image-47.png",
       "dependencies": []
     },
     "lib/media/image-49.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 140768,
       "exportedPath": "lib/media/image-49.png",
       "dependencies": []
     },
     "lib/media/image-60.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 162777,
       "exportedPath": "lib/media/image-60.png",
       "dependencies": []
     },
     "lib/media/image-61.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 200112,
       "exportedPath": "lib/media/image-61.png",
       "dependencies": []
     },
     "lib/media/image-62.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 148950,
       "exportedPath": "lib/media/image-62.png",
       "dependencies": []
     },
     "lib/media/image-64.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 385686,
       "exportedPath": "lib/media/image-64.png",
       "dependencies": []
     },
     "lib/media/image-65.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 267406,
       "exportedPath": "lib/media/image-65.png",
       "dependencies": []
     },
     "lib/media/image-66.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 449882,
       "exportedPath": "lib/media/image-66.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot3.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 98251,
       "exportedPath": "lib/media/pressure_flow_plot3.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot1.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 182792,
       "exportedPath": "lib/media/pressure_flow_plot1.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot2.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 79417,
       "exportedPath": "lib/media/pressure_flow_plot2.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot3-1.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 98034,
       "exportedPath": "lib/media/pressure_flow_plot3-1.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot2-1.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 79571,
       "exportedPath": "lib/media/pressure_flow_plot2-1.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot1-1.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 167575,
       "exportedPath": "lib/media/pressure_flow_plot1-1.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot3-4.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 133434,
       "exportedPath": "lib/media/pressure_flow_plot3-4.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot1-4.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 135640,
       "exportedPath": "lib/media/pressure_flow_plot1-4.png",
       "dependencies": []
     },
     "lib/media/pressure_flow_plot2-4.png": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 59595,
       "exportedPath": "lib/media/pressure_flow_plot2-4.png",
       "dependencies": []
     },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 315,
-      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+    "lib/media/gemini_generated_image_sik8a5sik8a5sik8.jpeg": {
+      "modifiedTime": 1742324625560,
+      "sourceSize": 138657,
+      "exportedPath": "lib/media/gemini_generated_image_sik8a5sik8a5sik8.jpeg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1742246056628,
+      "modifiedTime": 1742324625560,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 8887,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 1488,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 137567,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/theme.css": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 10101,
-      "exportedPath": "lib/styles/theme.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 337,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 2939,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1742246056628,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }

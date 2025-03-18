@@ -1,155 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Mar 2025 21:14:20 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Mar 2025 21:14:16 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Setup]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
- <br><br>
-<br>Place the sensors on a level surface
-<br>Connect the sensors to the MiDOC<br>
-- P3 is upstream<br>
-- P4 is downstream<br>
-Launch the MiDOC program
-<br>Tare in air (refer to <a data-href="250310 - MiDOC Flow vs Pressure Relationship#Proposed Solution" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html#Proposed_Solution" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship &gt; Proposed Solution</a>)
-<br>hook up the setup (below)
-
-<br>IV bag -&gt; Stop Cock -&gt; microbore tubing -&gt; P3 -&gt; microbore tubing -&gt; 27g x 1/2" Needle -&gt; Injection Site -&gt; P4 -&gt; 22g x <a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a> needle
-
-
-<br>Purge the lines ensuring there is absolutely no air anywhere inline
-<br>Secure the sensors to a level surface
-<br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
-Press start on the MiDOC
-<br>Make the incision and insert the AC Maintainer<br>
-Add a MiDOC insertion comment
-<br>Wait 5 s<br>
-Add a Test Start comment
-<br>Wait 15 s
-<br>Stop the flow using the stop cock<br>
-Add a Flow Stop comment
-<br>Raise the height of the IV bag by 13 mmHg (The next mark up  - 8.028 inches)<br>
-Add a Bag Raise to X mmHg comment
-<br>Quickly enable the flow using the stop cock<br>
-Add a Flow Enabled comment
-<br>Wait 15 s
-<br>Repeat steps (10-13) 2X additional times<br>
-Add a Test End Comment
-<br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
-Continue monitoring and add procedure comments appropriately
-<br>After surgical intervention steps (i.e. ) repeat steps (9-15) once.<br>
-Stop the MiDOC
-<br><br><a data-href="MiDOC - Potential Sources of Error Calculations" href="mount_sinai-notes\quick-notes\midoc-potential-sources-of-error-calculations.html" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Calculations</a><br>
-<br>Sources of error
-
-<br>Movement of the eye / patient / surgeon
-<br>Oscillations induced by swinging of the bag on the IV pole
-<br>Kinks in-line
-<br>Leveling
-
-<br>Height of P3 and P4 (due to an unlevel surface)
-
-
-<br>Oscillations/fluctuations induced when raising the IV bag
-<br>Vibrations in the room / environment
-
-<br>People walking
-<br>Surrounding equipment (Heating / AC, Cooling fans in nearby electronics)
-
-
-<br>Inline air bubbles
-<br>Leaks
-<br>Sensor Calibration
-<br>Temperature and Pressure in the room
-<br>In line flow vectoring
-
-<br>Rotation/Orientation of the needle (how straight it is inserted and which way the opening is facing)
-<br>Location of the needle (how centered it is when inserted)
-
-
-<br>In line Blockages / Deposits
-
-
-<br>Accuracy required for measurement of Eyelasticity™
-<br><br><br><br><br><br><br>Develop a relationship between PDiff (P4-P3) and the flow reported by the flow sensor<br>Note that we do not actually care what the real flow from the iv bag is as of now because we just want the pressure sensor data to match perfectly with the flow sensor data.<br><br><br><br><br>Determine why we were getting inconsistent results between batches in <a data-href="250228 - 250305 MiDOC Flow vs Pressure Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250228 - 250305 MiDOC Flow vs Pressure Testing</a><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 19:03:50 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 19:03:45 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[MiDOC - Current State - Technical Breakdown - 240919]]></title><description><![CDATA[ 
+ ]]></description><link>mount_sinai-notes\projects\midoc\1-pager\midoc-current-state-technical-breakdown-240919.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Current State - Technical Breakdown - 240919.md</guid><pubDate>Mon, 17 Mar 2025 14:07:36 GMT</pubDate></item><item><title><![CDATA[MiDOC - Technical Specification Sheet v1. 0]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>(No components were listed in the provided document.)]]></description><link>mount_sinai-notes\projects\midoc\1-pager\midoc-technical-specification-sheet-v1.-0.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC - Technical Specification Sheet v1. 0.md</guid><pubDate>Mon, 17 Mar 2025 13:54:59 GMT</pubDate></item><item><title><![CDATA[BOM and Gerber View]]></title><description><![CDATA[ 
+ <br><a data-href="ibom.html" href="attachments\ibom.html" class="internal-link" target="_self" rel="noopener nofollow">ibom.html</a><br>
+<a data-href="Mouser for ADC.url" href="attachments\mouser-for-adc.url" class="internal-link" target="_self" rel="noopener nofollow">Mouser for ADC.url</a>]]></description><link>mount_sinai-notes\projects\midoc\hardware\bom-and-gerber-view.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Hardware/BOM and Gerber View.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[Datasheets]]></title><description><![CDATA[ 
+ <br><a data-href="ads122c04.pdf" href="attachments\ads122c04.pdf" class="internal-link" target="_self" rel="noopener nofollow">ads122c04.pdf</a><br>
+<a data-href="esp32-c3-wroom-02_datasheet_en.pdf" href="attachments\esp32-c3-wroom-02_datasheet_en.pdf" class="internal-link" target="_self" rel="noopener nofollow">esp32-c3-wroom-02_datasheet_en.pdf</a><br>
+<a data-href="Sensirion_Liquid_Flow_Meters_LD20-0600L_Datasheet.pdf" href="attachments\sensirion_liquid_flow_meters_ld20-0600l_datasheet.pdf" class="internal-link" target="_self" rel="noopener nofollow">Sensirion_Liquid_Flow_Meters_LD20-0600L_Datasheet.pdf</a>]]></description><link>mount_sinai-notes\projects\midoc\hardware\datasheets.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Hardware/Datasheets.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[Patent US 20210353145]]></title><description><![CDATA[ 
+ <br><a class="internal-link" data-href="20210353145.pdf" href="attachments\20210353145.pdf" target="_self" rel="noopener nofollow">Patent PDF</a>]]></description><link>mount_sinai-notes\projects\midoc\intellectual-property\patent-us-20210353145.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Intellectual Property/Patent US 20210353145.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[MiDOC Flow Math]]></title><description><![CDATA[ 
+ <br><br>How do we obtain the True Flow from the flow sensor and pressure sensors?<br><br>
+<br>Time (in seconds)
+<br>Flow (in μL / min)
+<br>Pressure 3 (in mm Hg)
+<br>Pressure 4 (in mm Hg)
+<br><br>
+<br>Flow through tube (in μL/s)
+<br>Total Volume Passthrough (in μL) 
 <br><br><br>
-<br>A silicone injection site for leak free insertions that holds the needle well is necessary instead of our previous idea of inserting the needle through the side of the iv tube.
-<br>Ensure there are no kinks in the line!
-<br><br><br><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a><br>
-<br><br><br>
-<br>The vertical offset of Pdiff still exists due to some unknown source of error
+<br>
+Convert Flow to μL/s via:<br>
+flow(n) (in μL / min) / 60 = flow(n) (in μL / s)
 
-<br>@ 0 pdiff, there is still a positive flow reported by the sensor for unknown reasons
+<br>
+Instantaneous Trapezoidal Calculation of Volume from Flow<br>
+Inst. Volume(n) (in μL) = (time(n) - time(n-1)) x (flow(n) + flow(n-1)) / 2
+
+<br>
+Summation of Trapezoidal Volume<br>
+Volume (in μL) = Inst. Volume(n) - Volume(n-1)
+
+<br>
+Calculation of Flow / Volume Correspondence<br>
+% = 1 - (Flow Sensor (μL) / Image Data (μL))
+
+<br><br><br><br><br><img src="lib\media\midoc-flow-math-20241105125649088.webp"><br><br><img src="lib\media\midoc-flow-math-20241105125658038.webp"><br><br><img src="lib\media\midoc-flow-math-20241105125704322.webp"><br><br><img src="lib\media\midoc-flow-math-20241105125711142.webp"><br><br><img src="lib\media\midoc-flow-math-20241105125719043.webp"><br><br>This may seem inaccurate but the Image Data column has a maximum accuracy limitation of 5 μL per measurement or 10 μL per data point in the table above. Thus, the accuracy of the Flow Sensor could be within about 25% of the volume through it.<br><br><br>Zero the pressure sensors<br>
+Obtain Pressure difference in mm Hg<br>
+Convert Pressure difference to Pa<br>
+Multiply by <br>Microbore tubing measurement:<br>
+7 inches = 177.8mm<br>
+0.6mm radius<br>dP = 8 mu L Q / pi R^4<br>
+Where:<br>
+R = Radius of tube, ~0.6mm<br>
+L = Length of tube, = 1778 mm<br>
+mu = ?? ~1 [Joseph Sherwood]<br>
+Q = Flow<br>
+dP = difference in pressure sensors<br>Therefore:<br>
+Q = dP pi R^4 / 8 L mu<br>
+Q = dP * (2.862 418 503 × 10^(−13)) in SI<br><br><br><img src="lib\media\midoc-flow-math-20241104163620537.webp" style="width: 681px; max-width: 100%;"><br><br><br><img src="lib\media\midoc-flow-math-20241105105931869.webp"><br><br><img src="lib\media\midoc-flow-math-20241105105942299.webp"><br><br><img src="lib\media\midoc-flow-math-20241105110420288.webp"><br><br><img src="lib\media\midoc-flow-math-20241105110429168.webp"><br><br><br><img src="lib\media\midoc-flow-math-20241105115724670.webp"><br><br><img src="lib\media\midoc-flow-math-20241105115733889.webp"><br><br><img src="lib\media\midoc-flow-math-20241105115750733.webp"><br><br><img src="lib\media\midoc-flow-math-20241105115819175.webp"><br><br><img src="lib\media\midoc-flow-math-20241105115835198.webp"><br><br>
+<br>Flow meter @ "stopped" had an average leak of:<br>
+7.48 μL / (4862-4578= 284 s) =  0.025 μL/s<br>
+Do we need to subtract this from the average datapoint to 
+]]></description><link>mount_sinai-notes\projects\midoc\math\midoc-flow-math.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Math/MiDOC Flow Math.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate><enclosure url="lib\media\midoc-flow-math-20241105125649088.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\midoc-flow-math-20241105125649088.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Questions]]></title><description><![CDATA[ 
+ <br>Questions 1<br>Monday, July 25, 2022<br>9:47 PM<br>&nbsp;<br>
+<br>
+Q: Are MIGS stent's available in different gauges to vary the outflow coefficient, or is the only option right now to add more stents to increase outflow, and less to decrease it?
+
+<br>
+Q: To what extent does the eye regulate IOP on its own?
+
+<br>
+How does a healthy eye ensure that the outflow is exactly equal to the inflow?
+
+<br>
+Does the TM have some form of biological valve?
+
+<br>
+Can the ciliary body regulate the secretion rate of AH?
 
 
-<br>The slope offset of Pdiff has been resolved by taring in air instead of water which is likely due to small flow rates / oscillations in the fluid when taring in water
-<br><br><br><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a> and <a data-href="250310 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship</a><br>
-<br><br><br>Between batch 2 and 3, new pressure sensors were introduced, and the setup was therefore re purged and connected.<br><br>Overall R²,0.9968323405741951<br>
-Overall RMSE,1.0063382070381353<br>
-Overall Quadratic Coef (x²),0.10716683078647171<br>
-Overall Linear Coef (x),21.62159118673341<br>
-Overall Constant,-1.3544673698865157<br>
-Avg Std Pdiff,0.044983730396195874<br>
-Avg Std Flow,0.6206748849226806<br>Batch,R²,RMSE,Quadratic Coef (x²),Linear Coef (x),Constant<br>
-Batch 2,0.998260128278613,0.9543873023257423,-0.1071458734923217,22.188002291969,-1.0753791850099725<br>
-Batch 3,0.9968323405741951,1.0063382070381353,0.14330034707769418,21.75911534893281,-2.058082038176668<br>
-<img alt="pressure_flow_plot3-5.png" src="lib\media\pressure_flow_plot3-5.png"><img alt="pressure_flow_plot2-5.png" src="lib\media\pressure_flow_plot2-5.png"><img alt="pressure_flow_plot1-5.png" src="lib\media\pressure_flow_plot1-5.png"><br>
-<a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a><br>
-Need to rerun the test with more batches and switch back to a linear fit<br><br> <br><br><br>Determine if the flow sensor is accurate to validate <a data-href="250311 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250311-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250311 - MiDOC Flow vs Pressure Relationship</a> <br>
-<br><br><br><br>Note: the difference in weight is equal to about 1 to 2 drops which could be due to human error relating to when we decide to look at the scale vs stopping the MiDOC<br><a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a> need to run test for longer to get a noticeable change on the graduated cylinder.<br><br> <br><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to pressure changes<br>
-<br><br><br><br>Overall average pdiff: -1.98 mm Hg<br>
-Average standard deviation: 0.81 mm Hg<br><br><a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a>: need to rurun test with a more consistent impulse (we were manually raising the column which could introduce major oscillations/inconsistencies)<br><br>This test was preformed as a simple sanity check<br>
-<br><br><br><br>IV bag -&gt; MiDOC -&gt; 22g needle -&gt; AC<br>AC -&gt; stop cock -&gt; 25g vs 27g vs 30g needle -&gt; air<br><br>
-<br>Allow the IOP to stabilize to the IV bag pressure
-<br>Screw in the 25g needle
-<br>Open the stop cock to induce a leak through the needle to air
-<br>Repeat for the 27g and 30g needle
-<br><br><img alt="Outflow Through Different Gauge Needles to Ambiant Pressure.png" src="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png"><br><br>250317 - Full Procedure Testing<br><br><br>
-<br>Place the sensors on a level surface
-<br>Connect the sensors to the MiDOC<br>
-- P3 is upstream<br>
-- P4 is downstream<br>
-Launch the MiDOC program
-<br>Tare in air (refer to <a data-href="250310 - MiDOC Flow vs Pressure Relationship#Proposed Solution" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html#Proposed_Solution" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship &gt; Proposed Solution</a>)
-<br>hook up the setup (below)
-
-<br><a data-href="IV bag" href="mount_sinai-notes\quick-notes\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> -&gt; <a data-href="Infusion Set" href="mount_sinai-notes\quick-notes\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a> -&gt; <a data-href="Stop Cock" href="mount_sinai-notes\quick-notes\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> 1 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\quick-notes\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; P3 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\quick-notes\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; <a data-href="27g x half inch Needle" href="mount_sinai-notes\quick-notes\27g-x-half-inch-needle.html" class="internal-link" target="_self" rel="noopener nofollow">27g x half inch Needle</a> -&gt; Injection Site -&gt; P4 -&gt; 22g x 1.5"
-<br>Anterior Chamber -&gt; Stop Cock 2 -&gt; 27g x 1/2" needle -&gt; Ambiant
 
 
-<br>Purge the lines ensuring there is absolutely no air anywhere inline
-<br>Secure the sensors to a level surface
-<br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
-Press start on the MiDOC
-<br>Make the incision and insert the AC Maintainer
-<br>Wait 5 s<br>
-Add a test start comment
-<br>Wait 15 s
-<br>Stop the flow using Stop Cock 1<br>
-Add a raise pressure comment
-<br>Raise the height of the IV bag by 13 mmHg (The next mark up  - 8.028 inches)
-<br>Quickly enable the flow using the stop cock
-<br>Wait 15 s
-<br>Repeat steps (10-13) 2X additional times<br>
-Add a test end comment
-<br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
-Continue monitoring and add procedure comments appropriately
-<br>Quickly enable flow through Stop Cock 2 and (i.e. ) repeat steps (9-15) once.<br>
-Stop the MiDOC
-<br><br><br>Need to ensure every connection makes sense (e.g. luer locks fit together)<br>
-Purging the line after the silicone injection port requires a time delay that is a function of volume after the injection port. Using a thinner iv tubing would be helpful.<br><br>  Labels = {<br>
-7.2: "MiDOC Insertion",<br>
-43: "Stop Cock Off",<br>
-53.8: "Pressure Impulse 1",<br>
-75.5: "Stop Cock Off",<br>
-86.2: "Pressure Impulse 2",<br>
-107.2: "Stop Cock Off",<br>
-122.5: "Pressure Impulse 3",<br>
-169: "Surgical Procedure",<br>
-231.5: "Ouflow Needle Insertion",<br>
-260: "Stop Cock Off",<br>
-270.8: "Pressure Impulse 1",<br>
-286.9: "Stop Cock Off",<br>
-295.9: "Pressure Impulse 2",<br>
-314.2: "Stop Cock Off",<br>
-324: "Pressure Impulse 3",<br>
-}<br>  P3_TARE: 97.559491659042<br>
-P4_TARE: 95.18772751663559<br>
-<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\1-pager\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Mon, 17 Mar 2025 21:10:44 GMT</pubDate><enclosure url="lib\media\pressure_flow_plot3-5.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pressure_flow_plot3-5.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
+
+<br>
+Partial A:
+<a rel="noopener nofollow" class="external-link" href="https://journals.physiology.org/doi/full/10.1152/nips.01443.2003" target="_blank">https://journals.physiology.org/doi/full/10.1152/nips.01443.2003</a>
+"the TM has autonomic and sensory innervation (16), which may release different neurotransmitters to modulate TM permeability."
+&nbsp;
+<br>
+<br>Q: In a trabeculectomy, is there any outflow mechanism for drainage of the bleb, or does it act solely as a resoirvoir to bring the IOP back to normal levels.
+<br>
+A: yes, through the episcleral vessels <a rel="noopener nofollow" class="external-link" href="https://primaryeyecarect.com/services/glaucoma-care-treatment/filtration-surgery-trabeculectomy" target="_blank">https://primaryeyecarect.com/services/glaucoma-care-treatment/filtration-surgery-trabeculectomy</a>
+<br>&nbsp;<br>
+<br>
+Q: In open angle glaucoma, what causes the resistance to outflow in the first place?
+
+<br>
+Q:
+
+<br>
+In the miDOC documentation, it states
+“000_Questions_1_000.png” could not be found.{width="10.979166666666666in" height="1.40625in"}
+Didn't the iperfusion paper say that outlow is not linearly proportional to IOP?
+“000_Questions_1_001.png” could not be found.{width="8.135416666666666in" height="0.625in"}
+&nbsp;
+“000_Questions_1_002.png” could not be found.{width="8.6875in" height="1.25in"}
+However, iperfusion was performed on ex-vivo mouse eyes, did a more recent study on enucleated human eyes reveal a linear relationship?
+]]></description><link>mount_sinai-notes\projects\midoc\questions\questions.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Questions/Questions.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
+ <br><br>To understand the relationship between pressure and flow within the range of 0 - 10 uL / min by creating a pressure drop through a 30g x 1/2 inch needle.<br><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp"><br>Needle injection into pressure sensor:<br>
+<img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151807995.webp"><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151833182.webp"><br><br><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114143018610.webp" style="width: 918px; max-width: 100%;"><br>
+Decay Curve for 5uL / min flow<br><br><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114143135297.webp"><br><br><br><br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/s/10wnpy2kwtzghc5/PressureVSFlow%20Testing%20250114.xlsx?dl=0" target="_blank">https://www.dropbox.com/s/10wnpy2kwtzghc5/PressureVSFlow%20Testing%20250114.xlsx?dl=0</a><br><br>Continued in <a data-href="250203 MiDOC Flow vs Pressure vs Time Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250203-midoc-flow-vs-pressure-vs-time-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250203 MiDOC Flow vs Pressure vs Time Testing</a>]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250114-midoc-flow-vs-pressure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250114 MiDOC Flow vs Pressure Testing.md</guid><pubDate>Mon, 17 Mar 2025 16:14:07 GMT</pubDate><enclosure url="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
+ <br><br>To understand the relationship between pressure, flow, and time within the range of 0 - 10 uL / min by creating a pressure drop through a BD Precision Glide 27g x 1/2" , 25g x 5/8" (0.5 x 16mm), and 22g x 1 1/2" needle <br><br>Same as in the <a data-href="250114 MiDOC Flow vs Pressure Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250114-midoc-flow-vs-pressure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250114 MiDOC Flow vs Pressure Testing</a><br><br><br><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp"><br>Needle injection into pressure sensor:<br>
+<img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151807995.webp"><br><img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151833182.webp"><br><br>27g seems to be about &lt;8 seconds until complete balance<br>
+25g seems to be about &lt;3 seconds until complete balance<br>
+Data saved in Excel format - 250203<br><br>27 g x 1/2" needle<br>
+<img alt="250203 MiDOC Flow vs Pressure vs Time Testing-20250210124400267.webp" src="lib\media\250203-midoc-flow-vs-pressure-vs-time-testing-20250210124400267.webp"><br>
+y = 12.948x - 0.0503<br>
+Rsqr = 0.988<br>
+Greatest deviation: 0.21544 uL/min<br>
+Time decay: &lt;8 seconds<br>25g x 5/8" needle<br>
+<img alt="250203 MiDOC Flow vs Pressure vs Time Testing-20250210124310764.webp" src="lib\media\250203-midoc-flow-vs-pressure-vs-time-testing-20250210124310764.webp"><br>
+(No correct correlation)<br>
+Time decay: &lt;3 seconds<br><br>IV Bag raised between different heights. All flow values seemed possible although they skewed up to higher values (150uL/min ++). Is it necessary to put a reducer PRIOR to the first Psensor?<br><br>
+<br>Next testing should include IV Bag steps to ensure the decay curve can be seen at the required needle sizes.
+<br>Next testing should test a reducer before the first p sensor.
+]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250203-midoc-flow-vs-pressure-vs-time-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250203 MiDOC Flow vs Pressure vs Time Testing.md</guid><pubDate>Thu, 27 Feb 2025 00:09:12 GMT</pubDate><enclosure url="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\250114-midoc-flow-vs-pressure-testing-20250114151738312.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
  <br>Note
 This test is to calibrate the Pressure Flow (PF) relationship.<br>
 It is not indicative of the actual setup that the MiDOC will be used in!<br>
@@ -188,35 +151,8 @@ this scalar could be explained by there being more air in the line on 250303 whi
 <br>the pressure sensors need to be reliably tared
 
 
-]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250228 - 250305 MiDOC Flow vs Pressure Testing.md</guid><pubDate>Mon, 17 Mar 2025 17:08:15 GMT</pubDate><enclosure url="lib\media\image-43.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-43.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
- <br>
-  
-    
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0" target="_blank" rel="noopener" data-do-not-bind-click="" class="c" style="
-                background-image: url('https://www.dropbox.com/static/metaserver/static/images/opengraph/opengraph-content-icon-folder-dropbox-landscape.png');
-              "></a>
-          
-        
-      
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0" target="_blank" rel="noopener" class="thl">250307 - flow vs pressure testing</a>
-          
-          Shared with Dropbox
-          
-            
-              <a href="https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0" target="_blank" rel="noopener" class="tw _f1m"><span class="twt"></span><span class="twd"></span></a>https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0
-            
-          
-        
-      
-    
-  
-<br><br>Determine why we were getting inconsistent results between batches in <a data-href="250228 - 250305 MiDOC Flow vs Pressure Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250228 - 250305 MiDOC Flow vs Pressure Testing</a><br><br>iv bag -&gt; p3 -&gt; 27g x 1/2" needle -&gt; p4 -&gt; flow sensor -&gt; 27g x 1/2 in needle -&gt; bucket of water<br><br>
+]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250228 - 250305 MiDOC Flow vs Pressure Testing.md</guid><pubDate>Mon, 17 Mar 2025 17:08:15 GMT</pubDate><enclosure url="lib\media\image-43.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image-43.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/l4x2pacv7sxiak0g8mddy/AOSM-w7M44wL_rkSnbpLLkg?rlkey=jawik382k3dspujoe8ezsrsvq&amp;dl=0</a><br><br>Determine why we were getting inconsistent results between batches in <a data-href="250228 - 250305 MiDOC Flow vs Pressure Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250228 - 250305 MiDOC Flow vs Pressure Testing</a><br><br>iv bag -&gt; p3 -&gt; 27g x 1/2" needle -&gt; p4 -&gt; flow sensor -&gt; 27g x 1/2 in needle -&gt; bucket of water<br><br>
 <br>open flow some amount with rolling stopper on tube
 <br>tare
 <br>wait for transients to die
@@ -373,35 +309,8 @@ Unfortunately there was a kink in the line between the pressure sensors and flow
 <img src="lib\media\image-62.png"><br><br>
 <br>A silicone injection site for leak free insertions that holds the needle well is necessary instead of our previous idea of inserting the needle through the side of the iv tube.
 <br>Ensure there are no kinks in the line!
-]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250307 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 17:14:38 GMT</pubDate><enclosure url="lib\media\image-51.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-51.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[ 
- <br>
-  
-    
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0" target="_blank" rel="noopener" data-do-not-bind-click="" class="c" style="
-                background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGRzLW1pY3Jvc29mdCIgd2lkdGg9IjgwcHgiICBoZWlnaHQ9IjgwcHgiICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMCkiPjxjaXJjbGUgY3g9IjgxLjczNDEzMzYxMTY0OTQxIiBjeT0iNzQuMzUwNDU3MTYwMzQ4ODIiIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0MC4wMDEgNDkuOTk5OSA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49IjBzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9Ijc0LjM1MDQ1NzE2MDM0ODgyIiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0OC4zNTIgNTAuMDAwMSA1MC4wMDAxKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMDYyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iNjUuMzA3MzM3Mjk0NjAzNiIgY3k9Ijg2Ljk1NTE4MTMwMDQ1MTQ3IiBmaWxsPSIjZjhiMjZhIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTQuMjM2IDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMTI1cyI+PC9hbmltYXRlVHJhbnNmb3JtPgo8L2NpcmNsZT48Y2lyY2xlIGN4PSI1NS4yMjEwNDc2ODg4MDIwNyIgY3k9Ijg5LjY1Nzc5NDQ1NDk1MjQxIiBmaWxsPSIjYWJiZDgxIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTcuOTU4IDUwLjAwMDIgNTAuMDAwMikiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjE4NzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjQ0Ljc3ODk1MjMxMTE5NzkzIiBjeT0iODkuNjU3Nzk0NDU0OTUyNDEiIGZpbGw9IiM4NDliODciIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM1OS43NiA1MC4wMDY0IDUwLjAwNjQpIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4yNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMzQuNjkyNjYyNzA1Mzk2NDE1IiBjeT0iODYuOTU1MTgxMzAwNDUxNDciIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDAuMTgzNTUyIDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMzEyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMjUuNjQ5NTQyODM5NjUxMTc2IiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDEuODY0NTcgNTAgNTApIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4zNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjE4LjI2NTg2NjM4ODM1MDYiIGN5PSI3NC4zNTA0NTcxNjAzNDg4NCIgZmlsbD0iI2Y4YjI2YSIgcj0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoNS40NTEyNiA1MCA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjQzNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT48L2c+PC9zdmc+');
-              "></a>
-          
-        
-      
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0" target="_blank" rel="noopener" class="thl">Fetching</a>
-          
-          Fetching https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0
-          
-            
-              <a href="https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0" target="_blank" rel="noopener" class="tw _f1m"><span class="twt"></span><span class="twd"></span></a>https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0
-            
-          
-        
-      
-    
-  
-<br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a><br><br>iv bag -&gt; p3 -&gt; 30g needle -&gt; p4 -&gt; flow sensor -&gt; 30g needle -&gt; bucket of water<br><br>The tare is different each time and is causing the line slope to change<br><br>Tare in air beforehand<br><br>
+]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250307 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 21:38:44 GMT</pubDate><enclosure url="lib\media\image-51.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image-51.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/2wkk8njfniu680hmf8s1d/ALMzww8BPqzseZ8NnsP8rE0?rlkey=ihjhjmb9xsfqdq1s5hduzzcw4&amp;dl=0</a><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a><br><br>iv bag -&gt; p3 -&gt; 30g needle -&gt; p4 -&gt; flow sensor -&gt; 30g needle -&gt; bucket of water<br><br>The tare is different each time and is causing the line slope to change<br><br>Tare in air beforehand<br><br>
 <br>Put the fresh sensors in the clip
 <br>Tare in air
 <br>hook up the setup
@@ -438,35 +347,8 @@ Avg Std Flow,0.47714044451659887<br>
 
 
 <br>The slope offset of Pdiff has been resolved by taring in air instead of water which is likely due to small flow rates / oscillations in the fluid when taring in water
-]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250310 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 16:30:24 GMT</pubDate><enclosure url="lib\media\image-64.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-64.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
- <br>
-  
-    
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0" target="_blank" rel="noopener" data-do-not-bind-click="" class="c" style="
-                background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGRzLW1pY3Jvc29mdCIgd2lkdGg9IjgwcHgiICBoZWlnaHQ9IjgwcHgiICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMCkiPjxjaXJjbGUgY3g9IjgxLjczNDEzMzYxMTY0OTQxIiBjeT0iNzQuMzUwNDU3MTYwMzQ4ODIiIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0MC4wMDEgNDkuOTk5OSA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49IjBzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9Ijc0LjM1MDQ1NzE2MDM0ODgyIiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0OC4zNTIgNTAuMDAwMSA1MC4wMDAxKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMDYyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iNjUuMzA3MzM3Mjk0NjAzNiIgY3k9Ijg2Ljk1NTE4MTMwMDQ1MTQ3IiBmaWxsPSIjZjhiMjZhIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTQuMjM2IDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMTI1cyI+PC9hbmltYXRlVHJhbnNmb3JtPgo8L2NpcmNsZT48Y2lyY2xlIGN4PSI1NS4yMjEwNDc2ODg4MDIwNyIgY3k9Ijg5LjY1Nzc5NDQ1NDk1MjQxIiBmaWxsPSIjYWJiZDgxIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTcuOTU4IDUwLjAwMDIgNTAuMDAwMikiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjE4NzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjQ0Ljc3ODk1MjMxMTE5NzkzIiBjeT0iODkuNjU3Nzk0NDU0OTUyNDEiIGZpbGw9IiM4NDliODciIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM1OS43NiA1MC4wMDY0IDUwLjAwNjQpIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4yNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMzQuNjkyNjYyNzA1Mzk2NDE1IiBjeT0iODYuOTU1MTgxMzAwNDUxNDciIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDAuMTgzNTUyIDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMzEyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMjUuNjQ5NTQyODM5NjUxMTc2IiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDEuODY0NTcgNTAgNTApIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4zNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjE4LjI2NTg2NjM4ODM1MDYiIGN5PSI3NC4zNTA0NTcxNjAzNDg4NCIgZmlsbD0iI2Y4YjI2YSIgcj0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoNS40NTEyNiA1MCA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjQzNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT48L2c+PC9zdmc+');
-              "></a>
-          
-        
-      
-      
-        
-          
-            <a href="https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0" target="_blank" rel="noopener" class="thl">Fetching</a>
-          
-          Fetching https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0
-          
-            
-              <a href="https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0" target="_blank" rel="noopener" class="tw _f1m"><span class="twt"></span><span class="twd"></span></a>https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0
-            
-          
-        
-      
-    
-  
-<br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a> and <a data-href="250310 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship</a><br><br>iv bag -&gt; p3 -&gt; 30g needle -&gt; p4 -&gt; flow sensor -&gt; 30g needle -&gt; bucket of water<br><br>The constant offset is caused by tilting of the pressure sensors<br><br>Tape the pressure sensors to a level<br><br>
+]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250310 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 21:39:07 GMT</pubDate><enclosure url="lib\media\image-64.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image-64.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/1z0altqkfm4mmpf8m35qp/AGfX5EMfgRcttPTwUeR1kKo?rlkey=i9ffec8fq708zt287k3xqz5yh&amp;dl=0</a><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a> and <a data-href="250310 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship</a><br><br>iv bag -&gt; p3 -&gt; 30g needle -&gt; p4 -&gt; flow sensor -&gt; 30g needle -&gt; bucket of water<br><br>The constant offset is caused by tilting of the pressure sensors<br><br>Tape the pressure sensors to a level<br><br>
 <br>Put the fresh sensors in the clip (secured to a level surface)
 <br>Tare in air
 <br>hook up the setup
@@ -514,7 +396,7 @@ Batch 2,0.998260128278613,0.9543873023257423,-0.1071458734923217,22.188002291969
 Batch 3,0.9968323405741951,1.0063382070381353,0.14330034707769418,21.75911534893281,-2.058082038176668<br>
 <img src="lib\media\pressure_flow_plot3-5.png"><img src="lib\media\pressure_flow_plot2-5.png"><img src="lib\media\pressure_flow_plot1-5.png"><br>
 <a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a><br>
-Need to rerun the test with more batches and switch back to a linear fit]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250311-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250311 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 16:25:53 GMT</pubDate><enclosure url="lib\media\pressure_flow_plot3-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pressure_flow_plot3-4.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+Need to rerun the test with more batches and switch back to a linear fit]]></description><link>mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250311-midoc-flow-vs-pressure-relationship.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/flow vs pressure testing/250311 - MiDOC Flow vs Pressure Relationship.md</guid><pubDate>Mon, 17 Mar 2025 21:39:23 GMT</pubDate><enclosure url="lib\media\pressure_flow_plot3-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pressure_flow_plot3-4.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
  <br><br>Determine if the flow sensor is accurate to validate <a data-href="250311 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250311-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250311 - MiDOC Flow vs Pressure Relationship</a> <br><br>
 <br>let water drip into cup at a constant flow rate through the flow sensor and a 27g x 1/2" needle
 <br>Compare weight with the integrated flow wrt time from the sensiron sensor with the volume from a graduated cylinder
@@ -570,4 +452,329 @@ Purging the line after the silicone injection port requires a time delay that is
 324: "Pressure Impulse 3",<br>
 }<br>  P3_TARE: 97.559491659042<br>
 P4_TARE: 95.18772751663559<br>
-<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 17 Mar 2025 20:36:52 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 17 Mar 2025 20:36:52 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\image-73.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IRB Study Protocol]]></title><description><![CDATA[ 
+ <br>Dynamic Ocular Tonometry Study during Intraocular Surgery<br>Principal Investigator: Gautam Kamthan, MD<br>Funded by: New York Eye and Ear Infirmary Foundation/MSIP<br>February 6, 2025<br><br><br><br><br><br>To study ocular outflow dynamics (see appendix for definition and discussion of ocular outflow) of the eye using intraoperative tonographic biometry and assess its predictive value in improving postoperative outcomes<br><br>Measured post-operative IOP up to Day 90 and its correlation to intraoperative ocular outflow and IOP biometry in patients undergoing concomitant intraocular surgery<br><br>Understanding intraoperative ocular outflow may have post-operative predictive management value to avoid immediate post-operative complications and improve outcomes<br><br><br>There are no current metrics to connect intraoperative findings to post-operative outcomes for intraocular surgeries that modify outflow. Abnormally high or low intraocular pressure (IOP) may occur after these surgeries and are due to an ocular outflow problem; yet, outflow is not directly measured at any point during a patient’s care. IOP is used as a proxy for ocular outflow, but is still not truly representative and is inadequate for outflow assessments. Many intraocular surgeries such as glaucoma, cataract, and retina surgeries modify ocular outflow but patients suffer from immediate post-operative complications from abnormal IOP because the outflow homeostasis of the eye is unknown.<br>Complications from abnormal IOP may result in permanent vision loss, suboptimal surgical outcomes, and unnecessary repeat surgeries. Therefore, we would like to measure the ocular outflow during surgery to better inform surgeons of post-operative management and outcomes.<br><br>The main purpose of glaucoma surgery is to reduce the intraocular pressure (IOP). However, it is difficult to know how well the surgery will achieve this with current methods. As a result, patients may have high or low IOP in the post-operative period. In the case of trabeculectomy, for example, the rate of hypotony (too low IOP) has been reported to exceed 30% with a significant risk of follow-on complications. For glaucoma patients undergoing cataract surgery, the most common eye surgery worldwide, as many as 28% of cases with co-morbid glaucoma demonstrate abnormally high IOP over 30 mmHg and more than 50% experience IOP over 25 mmHg.<br>These abnormal IOP fluctuations place patients at risk for vision loss or suboptimal post-operative results. It has been studied that the utility of the standard day 1 post-operative visit after cataract surgery is indicated primarily to check for and treat high or low post-operative IOPs. Thus, having better control and prediction of the post-operative IOP could reduce the need for this potentially unnecessary office visit, which became especially critical during the COVID-19 pandemic.<br>Currently, there are no clinically useful bio-markers to predict the IOP post-operatively. While intraocular pressure measurement pre, peri and intra-operatively has been described, it is not efficient because of many confounding factors, and it does not closely correlate with the eye’s outflow facility. Simple intraoperative tonometry has not been useful either as it is not a sufficient surrogate for outflow capacity estimation, only predicting the immediate IOP, without relation to the post-operative steady-state outflow capacity. The most common devices used to measure IOP, tonometers, themselves typically also suffer from inaccuracy in their readings from a number of factors, such as corneal edema, which is common during eye surgery. Surprisingly, the current, most common standard method for assessing outflow intraoperatively is visual and tactile inspection by the surgeon. That is, the surgeon observes the amount of fluid leaking, palpates the eye, and estimates whether the amount is too much, too little, or acceptable. This makes it difficult to understand the outflow of intraocular fluid or pressure regulation in a dynamic system such as the eye.<br>Prior studies have assessed outflow capacity based on animal, cadaveric, or mathematical modeling. Few have performed an in-vivo evaluation of the IOP and outflow capacity. The team of Karyotakis et al (see attached reference) performed in-vivo measurements during routine cataract surgery in 19 patients. Patients had a baseline measurement taken upon entry into the eye, followed by an infusion of saline to pressurize the eye up to 40 mmHg, and then the IOP decay curve was graphed to calculate the ocular outflow.&nbsp; This study was important in advancing the knowledge of ocular outflow, but it was limited in its scope in a variety of ways aside from the small sample size:<br>
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It only assessed the outflow at the beginning of the surgical procedure. No measurements were taken during the cataract surgery and none were taken at the end.<br>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No correlation was made to post-operative outcomes. No post-operative data was collected or evaluated.<br>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Only healthy eyes undergoing cataract surgery were studied.&nbsp; Glaucoma is a disease of ocular outflow and as such glaucoma surgery is entirely focused on modifying the outflow.&nbsp; These patients, however, were excluded in addition to all other patients with other disease entities.<br>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The data analysis was purely mathematical as it was published in 2015. Given recent advancements in Artificial Intelligence (AI), there may be patterns or findings that went unnoticed without the aid of such technology.<br>Therefore, we propose this study to measure the IOP fluid dynamics and outflow homeostasis in patients undergoing intraocular surgery to understand how post-operative surgical success can be optimized and complications prevented.<br><br><br>Intraoperative tonography and fluid biometry to determine the ocular outflow can be predictive of post-operative outflow and abnormal IOP<br><br>Prospective observational study, Single-Site<br><br>Recruit physicians affiliated with the Mount Sinai Health System who are performing intraocular surgeries, such as cataract and/or glaucoma surgeries. Enroll patients to undergo concomitant IOP measurement and outflow capacity calculation during their surgery. Monitor IOP post-operatively for up to 90 days. Single study arm<br><br>Measurements will be collected and surgical management of the patients will not be influenced based on measurements as surgeons will be blinded to them during the surgery. Measurements will be taken using an FDA-registered, sterile, single-use, disposable Deltran I pressure sensor designed for measuring physiological pressures of the body. The sensor will be attached to an infusion line communicating to an infusion source at a point out of the sterile field. It outputs measurement data electronically to Microsoft Excel. Computations and analysis will be performed with standard software such as Microsoft Excel.<br><br>Risk will be low by design because measurement of IOP during surgery will occur through existing incisions created for the surgery itself.<br><br>Patients will be stratified according to disease entity (glaucoma and/or cataract), severity (mild, moderate, etc), and surgery performed (cataract surgery, cataract surgery combined with glaucoma surgery, trabeculectomy, and/or glaucoma device implantation)<br><br>Up to 150 people enrolled or a predictive model of post-operative IOP is established. Therefore, if a predictive model is determined prior to 150 people, the study will end.<br><br><br>Surgery provides an opportunity to directly measure ocular outflow. Current methods are all indirect, such as measuring static IOP with a tonometer depressing the cornea.&nbsp; Outflow modifying surgeries, such as cataract and glaucoma surgeries, also present opportunities to study how different interventions can modify the outflow.<br><br>As only measurements will be taken, no "intervention" is being performed to affect the outcome of the surgery or patient's care.&nbsp; The surgeon is masked to the findings during the surgery so will be unable to make intraoperative surgical management changes to care. Therefore this is observational. As this is observational, a control is not needed.&nbsp; An observational design has been chosen to collect data to develop a predictive model of post-operative findings without influencing them.<br>While this is an observational study, that refers to the design.&nbsp; The study itself sometimes involves pressurization of the eye that may occur to obtain some measurements, which is not a passive observational measurement.<br>Follow-up will be for 90 days as this will allow patients' IOP to stabilize after the acute post-operative period of 30 days.<br><br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sterile, single-use, disposable pressure sensor (Deltran I Disposable Pressure Transducer) will be attached to a stable location within the sterile field as close as possible to the subject’s eye without interfering with the surgeon’s access, such as underneath the eyelid speculum temporally near the subject’s temporal orbital rim aka the side of their head.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will connect fluidically to the anterior chamber using a standard off-the-shelf 20G Lewicky Anterior Chamber Maintainer that is already available at the hospital via a luer lock<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will be fixated in the sterile field by the surgeon using tegaderms or other standard sterile fixation material<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will communicate to the infusion source (such as a sterile bag of BSS hung on an IV pole) via tubing that will extend off the sterile field.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The surgeon will connect these components (sensor, AC maintainer, and IV tubing) via luer locks under the guidance of the study staff.&nbsp; Surgeons have adequate training in making these connections as they regularly use luer lock connections as a part of standard care<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prior to insertion into the eye through a clear corneal paracentesis, the tubing will be primed to eliminate any air bubbles and ensure a continuous laminar column of fluid<br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measurements will be taken during the surgery through the existing paracentesis that is necessarily created to perform the surgery itself<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The anterior chamber maintainer will be periodically inserted through the incision at the beginning, during, and end of the surgery, at the surgeon’s discretion<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other sources of infusion, such as a phacoemulsification handpiece, will be removed from the eye prior to taking measurements<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measurements will be recorded using the pressure sensor as it is connected in-line with infusion tubing<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The pressure sensor is designed to measure the pressure in-line and be reflective of the pressure measured at the distal tip of the tubing. This is because the flow in the tubing is laminar and the height differential between the sensor and the point of the tip (the anterior chamber) will be accounted for through calibration.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Periodic measurements and infusions to characterize the outflow capacity (facility) will be performed at the surgeon’s discretion<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The infusion will consist of raising the height of the pole with the infusion bag to an appropriate height to pressurize the eye to a desired value no greater than 40mmHg (as was done in the study by Karyotakis et al) or as dictated by the surgeon, such as in the case of a glaucoma patient. Once the pressure reaches the desired value, the infusion line will be closed and the decay of the eye pressure monitored. Measurements will be continuously taken before, during, and after the infusion. At any point, the surgeon can stop the measurements at their discretion. Should the IOP not decay and stay elevated, for example at 40 mmHg, the surgeon/study staff can stop pressurization and drain fluid from an existing incision to decrease the IOP to an appropriate value.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor is designed to output measurements electronically<br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Surgeon will remove the AC maintainer from the eye at their discretion, at least at the conclusion of surgery<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All equipment is single-use, sterile, and disposable, except for the AC maintainer that is reusable and designed to be resterilized.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Disposable equipment will be discarded according to the standard appropriate waste protocols<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The AC maintainer will be sent for resterilization according to the hospital’s standard policy<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total time for measurements will take less than 10 minutes<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measurements that have been collected will be analyzed using standard software such as Microsoft Excel<br><br><br>o&nbsp;&nbsp; Ophthalmic surgeons performing intraocular surgery within the Mount Sinai Health System will consent subjects and enroll patients prior to surgery in a preoperative visit. Subjects will be informed of the study and can sign the consent form or if they choose to can sign the consent form at a later date.<br>o&nbsp;&nbsp; No screening is required as the surgeons themselves will be identifying subjects<br>o&nbsp;&nbsp; Patients will be consented by the surgeon/surgeon’s staff in a language they understand<br>o&nbsp;&nbsp; All surgeons will be added to the study team prior to participation<br><br>Individuals undergoing cataract and/or glaucoma surgery in the Mount Sinai Health System<br><br>Individuals less than 18 years old, pregnant women, those without capacity to make their own decisions, and prisoners<br><br>Subjects may withdraw from the study at any time. After the surgery is complete, the patient will be followed by the surgeon for their post-operative care and their IOP measurements will be collected at each visit as a part of standard care. These measurements can be collected from the patient's medical record without interacting with the patient during the post-operative period. As this collection of data from the record will cause no modification to their standard care, it is less likely that patients will voluntarily withdraw from the study; nonetheless, should they choose to, they can withdraw at any time. Pre-operative measurements will be collected from chart review.<br>For patients who require further incisional surgeries due to complications from the first surgery, the measurements will stop. &nbsp;If additional in-office procedures are required, then in-office measurements can continue according to the schedule.<br>If, during the surgery, a patient becomes unstable while measurements are being taken, measurements will be halted. The surgeon may restart measurements once the patient is stabilized or aborted completely per the surgeon’s discretion.<br><br>Patients in the study will be participating in their surgeon’s regular post-operative care and will be required by the surgeon to follow-up, which will aid to minimize loss to follow-up. Patients who have not followed-up or miss a visit will be contacted by the surgeon’s office to remind them of follow-up.<br><br><br>Periodically, such as after the first 10 cases, the data and cases will be reviewed to determine if a predictive algorithm can be identified and if any safety concerns are noted. Once a predictive algorithm is identified, the study is complete. If any safety concerns are noted at such a time point as well, the study may be modified or discontinued as necessary.<br>Surgeons will be the ultimate decision-makers regarding the safety of their patients, as they will know their patients’ medical conditions best. As such, the safety of patients included in the study will be monitored by their surgeons in concert with study staff. &nbsp;As patients will be undergoing surgery as recommended by their surgeon to treat an existing condition, such as cataracts or glaucoma, the post-operative care and safety will be dictated by the surgeon.<br>Adverse events (AE) will be defined as those events that negatively affect the patient’s health specifically as a result of the study.&nbsp; As there is no intervention (no additional incisions and no medication or surgical procedure performed), an AE must be clearly related to the study and not to the surgery itself.&nbsp; Adverse events will be monitored and recorded as they relate to the patient’s outcome from the surgery. Surgeons will report to study staff any adverse events immediately as they are identified. The management will be according to the treating physician.&nbsp;<br><br><br>The risks of standard intraocular surgery exist and are unavoidable for surgery. &nbsp;Intraoperative tonometry will be performed through the incision created for the surgery. &nbsp;There will be minimal additional risk, as such measurement is not a routine part of surgery but is unlikely to affect the surgical outcome.<br>Toxic Anterior Segment Syndrome (TASS) is known to occur unpredictably in routine, uncomplicated ophthalmic surgeries. Most commonly, it is due to improperly cleaned reusable instruments (Mamalis N). It has also been found to occur in cases due to BSS that was prepared in the hospital pharmacy (Andonegui). As TASS is a known risk in all eye surgery, the occurrence of TASS may not be associated with the study and may be coincidental. However, since reusable anterior chamber maintainers will be used and sterilized according to the hospital's standard protocol, their use could theoretically increase the risk of TASS. &nbsp;Other equipment is sterile, single-use, and disposable. BSS will not be prepared in the hospital pharmacy and will only be used that is directly purchased from the manufacturers.<br>No published data exists on increased risks associated with increasing ophthalmic surgical time for less than 10 minutes (Cheng et al). Neither are there data on risks associated with artificially pressurizing the eye during surgery up to 40 mmHg as will be done in the study.&nbsp; Should a surgeon feel such pressurization could cause harm, the pressurization can be modified to the surgeon’s choosing or aborted completely at any time.&nbsp; For reference, phacoemulsification machines, such as the Alcon Centurion, that are commonly used at the hospital are set by default to pressurize the eye up to 70 mmHg.<br><br>A predictive model may be developed to inform surgeons of better surgical and post-operative management strategies, including potential pre-operative risk-stratification. This model may provide better outcomes for patients and reduce complications from surgeries in the future.<br><br><br>Hypothesis<br>Intraoperative ocular outflow measurements using tonography are predictive of post-operative findings such as IOP<br>Null Hypothesis<br>Intraoperative dynamic tonometry measurements and their tracing are not predictive of postoperative IOP states and major IOP fluctuations (hypotony and hypertension episodes)<br><br>A potentially predictive model is developed correlating the intraoperative IOP dynamic tonometric measurements and their tracing to the post-operative IOP state.<br>Secondary Efficacy Endpoint(s)<br>Incidence and rate of adverse events such as IOP spikes and hypotony as a byproduct of the surgery itself<br><br>This is a preliminary feasibility and exploratory study which will use standard statistical analytical methods, followed by a machine learning model to correlate intraoperative biometry data to post-operative outcomes. It is expected to enroll up to 150 people to get a first-pass assessment of feasibility.<br><br>All patients who meet inclusion/exclusion criteria will be included in the analysis. Analysis will be broken down further by type of surgery, such as cataract surgery alone vs glaucoma surgery alone vs combination cataract and glaucoma surgery etc.<br><br>IOP and outflow data will be collected for statistical analysis, followed by artificial intelligence machine learning analysis to identify patterns predictive of post-operative outcomes<br><br>If a predictive model is identified prior to enrolling 150 people the study may be discontinued<br><br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Patient data will be anonymized and records kept at the surgeon's office in compliance with HIPAA<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data will be collected and stored on a on a Sinai-secured network location. .<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data will be kept for seven years<br><br><br>The outflow of the eye is the flow of aqueous humor through the natural pathways that eventually lead back to the body’s circulatory system. The aqueous humor is the fluid created by the eye itself to serve a variety of purposes ranging from nutritional support to providing an optically clear medium for light transmission to facilitate vision.&nbsp;<br>When there is disharmony between the rate of aqueous humor production and the rate that the aqueous humor leaves the eye, there exists an abnormality in ocular outflow. For example, if the rate of aqueous humor leaving the eye is less than the rate of production, then the outflow is low.<br>One such manifestation of abnormal outflow is an abnormal IOP. In the example above, if the outflow of the eye is low and the rate of production is high, then the IOP would be high. The reverse would also be true.&nbsp; In disease states such as glaucoma, people often have a low outflow and a high IOP.<br>Outflow and IOP are related but not equivalent, however. Outflow is a dynamic process; whereas, IOP is discussed in static terms. It is similar to the relationship between acceleration and the speed (technically velocity) of a car. For example, a car may have a high speed, but not be accelerating quickly if it is maintaining a constant speed. On the other hand, a car may be accelerating very quickly but the speed at that moment may be low.&nbsp; Therefore, IOP provides only a limited snapshot of the eye’s ability to manage its aqueous humor flow.&nbsp; As such we chose to examine ocular outflow in this study as it is a much better description of the eye’s aqueous humor flow regulation.<br>We will still utilize methods of determining the IOP, such as with a pressure sensor, to obtain ocular outflow.&nbsp; For example, we will graph the IOP over time to generate an IOP curve. Then to determine the outflow, we will, in simple terms, take the derivative of the IOP curve.<br>Collecting intraoperative information on the outflow of the eye in this manner and correlating it to the post-operative measurements, using IOP at each visit as a proxy, will hopefully explain why some people develop post-operative complications related to an abnormal IOP (and outflow) and others do not.<br>See references below for further technical discussion and details.<br><br>Sherwood JM, Reina-Torres E, Bertrand JA, Rowe B, Overby DR. Measurement of Outflow Facility Using iPerfusion.&nbsp;PLoS One. 2016;11(3):e0150694. Published 2016 Mar 7.<br>Karyotakis NG, Ginis HS, Dastiridou AI, Tsilimbaris MK, Pallikaris IG. Manometric measurement of the outflow facility in the living human eye and its dependence on intraocular pressure.&nbsp;Acta Ophthalmol. 2015;93(5):e343-e348.&nbsp;<br>Mamalis N. Toxic anterior segment syndrome: Role of enzymatic detergents used in the cleaning of intraocular surgical instruments. J Cataract Refract Surg. 2016;42(9):1249-1250. doi:10.1016/j.jcrs.2016.08.011<br>Andonegui J, Jiménez-Lasanta L, Aliseda D, Lameiro F. Brote de síndrome tóxico del segmento anterior después de cirugía vítrea [Outbreak of toxic anterior segment syndrome after vitreous surgery]. Arch Soc Esp Oftalmol. 2009;84(8):403-405. doi:10.4321/s0365-66912009000800007<br>Cheng H, Chen BP, Soleas IM, Ferko NC, Cameron CG, Hinoul P. Prolonged Operative Duration Increases Risk of Surgical Site Infections: A Systematic Review. Surg Infect (Larchmt). 2017;18(6):722-735. doi:10.1089/sur.2017.089]]></description><link>mount_sinai-notes\projects\midoc\testing\irb\irb-study-protocol.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/IRB/IRB Study Protocol.md</guid><pubDate>Thu, 27 Feb 2025 00:14:55 GMT</pubDate></item><item><title><![CDATA[Reference Procedure from IRB]]></title><description><![CDATA[ 
+ <br><br><br><br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sterile, single-use, disposable pressure sensor (Deltran I Disposable Pressure Transducer) will be attached to a stable location within the sterile field as close as possible to the subject’s eye without interfering with the surgeon’s access, such as underneath the eyelid speculum temporally near the subject’s temporal orbital rim aka the side of their head.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will connect fluidically to the anterior chamber using a standard off-the-shelf 20G Lewicky Anterior Chamber Maintainer that is already available at the hospital via a luer lock<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will be fixated in the sterile field by the surgeon using tegaderms or other standard sterile fixation material<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor will communicate to the infusion source (such as a sterile bag of BSS hung on an IV pole) via tubing that will extend off the sterile field.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The surgeon will connect these components (sensor, AC maintainer, and IV tubing) via luer locks under the guidance of the study staff.&nbsp; Surgeons have adequate training in making these connections as they regularly use luer lock connections as a part of standard care<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prior to insertion into the eye through a clear corneal paracentesis, the tubing will be primed to eliminate any air bubbles and ensure a continuous laminar column of fluid<br>
+<br><br><br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measurements will be taken during the surgery through the existing paracentesis that is necessarily created to perform the surgery itself<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The anterior chamber maintainer will be periodically inserted through the incision at the beginning, during, and end of the surgery, at the surgeon’s discretion<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other sources of infusion, such as a phacoemulsification handpiece, will be removed from the eye prior to taking measurements<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Measurements will be recorded using the pressure sensor as it is connected in-line with infusion tubing<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The pressure sensor is designed to measure the pressure in-line and be reflective of the pressure measured at the distal tip of the tubing. This is because the flow in the tubing is laminar and the height differential between the sensor and the point of the tip (the anterior chamber) will be accounted for through calibration.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Periodic measurements and infusions to characterize the outflow capacity (facility) will be performed at the surgeon’s discretion<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The infusion will consist of raising the height of the pole with the infusion bag to an appropriate height to pressurize the eye to a desired value no greater than 40mmHg (as was done in the study by Karyotakis et al) or as dictated by the surgeon, such as in the case of a glaucoma patient. Once the pressure reaches the desired value, the infusion line will be closed and the decay of the eye pressure monitored. Measurements will be continuously taken before, during, and after the infusion. At any point, the surgeon can stop the measurements at their discretion. Should the IOP not decay and stay elevated, for example at 40 mmHg, the surgeon/study staff can stop pressurization and drain fluid from an existing incision to decrease the IOP to an appropriate value.<br>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The sensor is designed to output measurements electronically<br><br><br>]]></description><link>mount_sinai-notes\projects\midoc\testing\irb\midoc-procedure.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/IRB/MiDOC Procedure.md</guid><pubDate>Fri, 28 Feb 2025 20:00:21 GMT</pubDate></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/qd0bk4wor8pavjol78gp2/AGbOwlitv9lSrkX2S0FVhqY?rlkey=sgpmdbjape2uzslqbtrx1to9y&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/qd0bk4wor8pavjol78gp2/AGbOwlitv9lSrkX2S0FVhqY?rlkey=sgpmdbjape2uzslqbtrx1to9y&amp;dl=0</a><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to pressure changes<br><br>Secure two pressure sensors which are connected directly together to the ground.<br>
+One is the "base" sensor the other is the experiment<br>connect a water column to it and raise it up then lower it again<br>throw it in analyze.py and compare pdiff avg std<br>new pressure sensor repeat<br><br><br>Overall average pdiff: -1.98 mm Hg<br>
+Average standard deviation: 0.81 mm Hg<br><br><a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a>: need to rurun test with a more consistent impulse (we were manually raising the column which could introduce major oscillations/inconsistencies)]]></description><link>mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250312-midoc-pressure-sensor-consistency-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250312 - MiDOC Pressure Sensor Consistency Testing.md</guid><pubDate>Mon, 17 Mar 2025 21:39:38 GMT</pubDate></item><item><title><![CDATA[Goal]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0</a><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to varying magnitudes of pressure<br><br>
+<br>Elevated IV Bag -&gt; P3 -&gt; P4 -&gt; Stop Cock
+<br>Fill up the IV bag to 45 mmHg
+<br>Open the stop cock and let the water drain until the pressure drops by 8 mmHg
+<br>Stop the stop cock
+<br>Take 5 s of data with the MiDOC
+<br>Append the data to a file titled with the index of the downstream sensor
+<br>repeat steps (2-6) 4 times
+<br>Once the fluid runs out switch out the downstream pressure sensor with a new one and create a new pressure sensor file
+<br>Load the files and analyze.py to analyze the standard deviation of the pressure differential between the sensors<br><br><img src="lib\media\figure_1.png"><br>
+NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg]]></description><link>mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md</guid><pubDate>Tue, 18 Mar 2025 18:57:54 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\figure_1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goals]]></title><description><![CDATA[ 
+ <br><br>determine if using two pressure sensors across a capillary with fda approved parts is accurate enough to measure clinically relevant outflow rates in humans.  <br><br>1ml Syringe @ 20 cm H2O &gt; IV Tubing &gt; Needle (with lots of glue for sealing) &gt; Eye<br>
+<a data-href="IanTrek Test Protocol 241029" href="mount_sinai-notes\projects\midoc\testing\iantrek-test-protocol-241029.html" class="internal-link" target="_self" rel="noopener nofollow">IanTrek Test Protocol 241029</a><br><br><br>
+<br>Correct Units... ✅ 2024-10-25
+<br>Mark the iv pole - when we arrive in Tampa
+<br>Create <a data-href="Test Protocol - Pressure Calibration Procedure" href="mount_sinai-notes\projects\midoc\testing\test-protocol-pressure-calibration-procedure.html" class="internal-link" target="_self" rel="noopener nofollow">Test Protocol - Pressure Calibration Procedure</a>
+<br>implement a "test button"
+
+<br>prompt the experimenter to set a specific location for the iv pole
+<br>wait until steady state is reached (come up with a way to algorithmically determine SS)
+<br>save the data in an organized manner
+<br>Repeat ^^
+
+
+<br>Sampling rate should to be increased
+
+<br>Can we run 2 setups (4 pressure sensors) at once?
+
+
+<br>How accurately can we measure flow rate
+
+<br>measure by weight 
+<br>measure against sensiron
+
+
+<br>Pack All required materials
+
+<br>MiDOC
+<br>Surgical tools
+<br>Pressure Sensors
+<br>Cables
+<br>Screwdrivers
+<br>Spare Syringe
+<br>Tape
+<br>Vicoelastic
+<br>Gonio Prism
+<br>
+
+
+<br><br>
+<br>Have Dr. Kamthan get IV tubing from Hospital
+<br>Luer lock adapters and cannulas
+<br>Sensiron and spare pressure sensors
+<br>Tape measure
+<br><br>
+<br>Accuracy vs. time graph
+<br>
+<br><br>
+<br>Check with psensors closed ✅ 2024-11-05
+<br>Check height (9 inches - height step of 6 inches) ✅ 2024-11-05
+<br>step impulse ✅ 2024-11-05
+<br><br>]]></description><link>mount_sinai-notes\projects\midoc\testing\cadaveric-testing-241029.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/Cadaveric Testing 241029.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[C-Rex DUO Tissue Study Protocol]]></title><description><![CDATA[ 
+ <br><br><br>Date: October 24, 2024  <br><br><br>To determine if one or more of the two (2) C-Rex outer wall wires (images below) will modify (i.e., cut or debride) the outer wall of the Schlemm’s Canal such that the outflow rate of the eye increases.<br><br>The teeth/points of these wires are intended to bear against the back wall of the canal as they are advanced into the Schlemm’s Canal and again when they are retracted.<br><br>Effects of two (2) different wire designs shall be quantified by recording outflow/perfusion rate before and after treatment (i.e., baseline perfusion versus perfusion after extension of the wire into the canal). Each globe will then undergo a 90-degree goniotomy and the perfusion rate will again be recorded.<br>After completion of perfusion rate testing, three (3) treated and untreated locations shall be evaluated via histology to assess if there is a noticeable difference in cell layers along the deployment path of the wires.<br>In parallel with the above evaluations, another globe will be baselined for perfusion rate and then undergo a 90-degree goniotomy, while still another globe will be baselined and undergo a 360-degree goniotomy.<br><br>
+<br>UNIT A - PN 300482  
+<br>UNIT C - PN 300485  
+<br><br>
+<br>No age or sex rule outs
+<br>Must be collected from non-Asian population
+<br>Serology negative for Hepatitis B/C and HIV
+<br>No IOLs
+<br>No evidence of prior eye surgeries
+<br><br>
+<br>
+Baseline Perfusion Rate:<br>
+Determine initial baseline perfusion rates for each eye.<br>
+Tissue bank will collect four (4) pairs of donor globes.<br>
+The container of each eye should be numbered where the number represents the donor and the suffix letter represents which eye (1R, 1L, 2R, 2L, 3R, 3L, 4R, 4L).<br>
+For each globe, conduct baseline perfusion testing per the Tissue Lab Perfusion Rate test protocol.<br>
+Record perfusion rate results.  
+
+<br>
+Outer Wall Treatment:<br>
+Repeat perfusion rate testing on globes after deployment of wires.<br>
+For each of the 2 wire designs, perform the following steps on 3 different globes as per the table below:  
+
+<br>Create a main corneal incision.  
+<br>Insert the instrument into the eye and enter the Trabecular Meshwork (TM) directly across from the main incision.  
+<br>Once the cannula is in place, insert the wire in the counterclockwise direction into the Schlemm’s Canal (SC) and extend it through the entire length of the slider.  
+<br>Carefully retract the wire.  
+<br>Seal the incision in the TM as well as the main corneal incision.  
+<br>Repeat the perfusion rate test and record results.  
+
+
+<br>
+Control:<br>
+Repeat steps b - g using one of the wires, except do not extend the wire into the Schlemm’s Canal. Insert the wire far enough to create a similar disruption or cut into the TM.  
+
+<br>
+Goniotomy:<br>
+Perform a 90-degree goniotomy using a C-Rex instrument (CRX-100, CRX-101, or CRX-121) for each treated eye in the same area as the outer wall treatment.<br>
+Repeat the perfusion rate test and record results.  
+
+<br>
+Goniotomy Only:<br>
+Perform a 90-degree goniotomy on one untreated pair of eyes and a 360-degree goniotomy on the other untreated pair.<br>
+Conduct perfusion rate test and record results.
+
+<br>
+Histology Prep:<br>
+After testing is completed, fix and prep each treated eye for histology.<br>
+Histology sectioning should be made at specified locations per the illustration. Ensure orientation of the main incision is noted and images are recorded.
+
+<br><br><br><br>The illustration below shows the relative positions which should be visualized in order to assess how much effect the Iantrek instruments had on the outer wall of the Schlemm’s Canal.<br><br><br>
+<br>25 gauge butterfly needle with attached tubing
+<br>1mL sterile syringe
+<br>Ring stand and clamp
+<br>Nest cup for holding eye
+<br>1xPBS
+<br>5mM glucose PBS (37C)
+<br>Hemostat
+<br>Large pair of forceps
+<br>Lab tape
+<br>1mL Tip box with lid
+<br>Kimwipes
+<br><br>
+<br>Warm 5mM glucose PBS to 37C.  
+<br>Prep working area in a sterile hood.  
+<br>Set up ring stand with a clamp for securing a 1ml syringe.  
+<br>Attach needle tubing to syringe and place syringe in clamp, ensuring it is 20cm above the limbus.  
+<br>Gently draw 5mM glucose PBS up through the needle and syringe, avoiding bubbles.  
+<br>Clamp tubing with hemostat and fill syringe completely with PBS.  
+<br>Gently place the globe into the jar.  
+<br>Unclamp tubing and insert needle into the anterior chamber.  
+<br>Tape tubing to maintain needle position.  
+<br>Refill syringe at 5 minutes post-insertion and start timer.  
+<br>Notate fluid level at 15-minute intervals for 2 hours.
+]]></description><link>mount_sinai-notes\projects\midoc\testing\iantrek-test-protocol-241029.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/IanTrek Test Protocol 241029.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[MiDOC Stepper Flow Testing]]></title><description><![CDATA[ 
+ <br><br>To understand correlation between pressure sensors and flow with a certain number of tubes  between them,<br><br><br><br>2x Deltran DPT-100 Pressure sensors<br>
+1x 7" Microbore extension set with Needleless Connector Bionector (Approx Priming Vol. 0.36mL)<br><br><br><br><br><br>“Stepper Flow Testing-20241029110405178.webp” could not be found.<br>Trendline: y=0.0001x+0.0583, R_squared: 0.0006 <br><br>With a single microbore extension tube at 1 minute of measurement, there is almost no correlation between pressure and flow through our tubing.<br><br><br><br>2x Deltran DPT-100 Pressure sensors<br>
+10x 7" Microbore extension set with Needleless Connector Bionector (Approx Priming Vol. 0.36mL)<br><br><br><br><br>“MiDOC Stepper Flow Testing-20241029112400962.webp” could not be found.]]></description><link>mount_sinai-notes\projects\midoc\testing\midoc-stepper-flow-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/MiDOC Stepper Flow Testing.md</guid><pubDate>Thu, 27 Feb 2025 00:14:56 GMT</pubDate></item><item><title><![CDATA[Test Protocol - Pressure Calibration Procedure]]></title><description><![CDATA[ 
+ <br><br>To calibrate the MiDOC's inline pressure sensors with the calibrated external pressure sensor.<br><br>
+<br>Deltran Disposable Pressure Sensor - DPT-100
+<br>Omega HHP-680 Pressure Sensor
+<br>IV Pole, Bag, and Tubing
+<br>MiDOC Board &amp; Computer
+<br><br>
+<br>Connect all components per the system diagram below.
+<br>Raise IV Bag to 1st pressure increment, wait 10 seconds, and record Omega Pressure sensor pressure and Deltran pressure sensor raw output in <a data-href="Test Report - Pressure Calibration" href="Test Report - Pressure Calibration" class="internal-link" target="_self" rel="noopener nofollow">Test Report - Pressure Calibration</a>
+<br>Repeat for a minimum of 6 pressure increments as shown in <a data-href="Test Report - Pressure Calibration" href="Test Report - Pressure Calibration" class="internal-link" target="_self" rel="noopener nofollow">Test Report - Pressure Calibration</a>
+<br>Calculate Pressure curve as a linear function in Matlab R2024b or Excel
+<br><br>]]></description><link>mount_sinai-notes\projects\midoc\testing\test-protocol-pressure-calibration-procedure.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/Test Protocol - Pressure Calibration Procedure.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[Test Report - Pressure Calibration Template]]></title><description><![CDATA[ 
+ <br><br>This Test Report is the output of the <a data-href="Test Protocol - Pressure Calibration Procedure" href="mount_sinai-notes\projects\midoc\testing\test-protocol-pressure-calibration-procedure.html" class="internal-link" target="_self" rel="noopener nofollow">Test Protocol - Pressure Calibration Procedure</a>.<br><br><br><br><br>Calculation of line of best fit through Matlab r2024b]]></description><link>mount_sinai-notes\projects\midoc\testing\test-report-pressure-calibration-template.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/Test Report - Pressure Calibration Template.md</guid><pubDate>Thu, 27 Feb 2025 00:00:09 GMT</pubDate></item><item><title><![CDATA[Software Icon]]></title><description><![CDATA[ 
+ <br><img alt="Gemini_Generated_Image_sik8a5sik8a5sik8.jpeg" height="511" src="lib\media\gemini_generated_image_sik8a5sik8a5sik8.jpeg" style="width: 511px; max-width: 100%;">]]></description><link>mount_sinai-notes\projects\midoc\software-icon.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Software Icon.md</guid><pubDate>Mon, 03 Mar 2025 14:35:58 GMT</pubDate><enclosure url="lib\media\gemini_generated_image_sik8a5sik8a5sik8.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\gemini_generated_image_sik8a5sik8a5sik8.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Outflow Through Different Gauge Needles to Ambient Pressure]]></title><description><![CDATA[ 
+ <br><br><br>IV bag -&gt; MiDOC -&gt; 22g needle -&gt; AC<br>AC -&gt; stop cock -&gt; 25g vs 27g vs 30g needle -&gt; air<br><br>
+<br>Allow the IOP to stabilize to the IV bag pressure
+<br>Screw in the 25g needle
+<br>Open the stop cock to induce a leak through the needle to air
+<br>Repeat for the 27g and 30g needle
+<br><br><img src="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png"><br><br><br>
+<br>Setup the MiDOC and insert it into the eye
+<br>Create 3 Pressure Impulses by elevating the height of the IV bag to create a signature which captures features such as the ocular compliance / outflow facility of the eye
+<br>Continue with the surgical procedure (in this case a 30g needle was inserted into the eye to induce a leak)
+<br>Repeat step 2 to capture Pressure and Flow features after the surgical intervention<br>
+<img src="lib\media\image-73.png">
+<br>]]></description><link>mount_sinai-notes\projects\midoc\1-pager\midoc-presentables-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Presentables - 250317.md</guid><pubDate>Tue, 18 Mar 2025 18:59:57 GMT</pubDate><enclosure url="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\outflow-through-different-gauge-needles-to-ambiant-pressure.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Setup]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+ <br><br>
+<br>Place the sensors on a level surface
+<br>Connect the sensors to the MiDOC<br>
+- P3 is upstream<br>
+- P4 is downstream<br>
+Launch the MiDOC program
+<br>Tare in air
+<br>hook up the setup (below)
+
+<br>IV bag -&gt; Stop Cock -&gt; microbore tubing -&gt; P3 -&gt; microbore tubing -&gt; 27g x 1/2" Needle -&gt; Injection Site -&gt; P4 -&gt; 22g x <a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a> needle
+
+
+<br>Purge the lines ensuring there is absolutely no air anywhere inline
+<br>Secure the sensors to a level surface
+<br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
+Press start on the MiDOC
+<br>Make the incision and insert the AC Maintainer<br>
+Add a MiDOC insertion comment
+<br>Wait 5 s<br>
+Add a Test Start comment
+<br>Wait 15 s
+<br>Stop the flow using the stop cock<br>
+Add a Flow Stop comment
+<br>Raise the height of the IV bag by 13 mmHg (The next mark up  - 8.028 inches)<br>
+Add a Bag Raise to X mmHg comment
+<br>Quickly enable the flow using the stop cock<br>
+Add a Flow Enabled comment
+<br>Wait 15 s
+<br>Repeat steps (10-13) 2X additional times<br>
+Add a Test End Comment
+<br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
+Continue monitoring and add procedure comments appropriately
+<br>After surgical intervention steps (i.e. ) repeat steps (9-15) once.<br>
+Stop the MiDOC
+<br><br><a data-href="MiDOC - Potential Sources of Error Calculations" href="mount_sinai-notes\quick-notes\midoc-potential-sources-of-error-calculations.html" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Calculations</a><br>
+<br>Sources of error
+
+<br>Movement of the eye / patient / surgeon
+<br>Oscillations induced by swinging of the bag on the IV pole
+<br>Kinks in-line
+<br>Leveling
+
+<br>Height of P3 and P4 (due to an unlevel surface)
+
+
+<br>Oscillations/fluctuations induced when raising the IV bag
+<br>Vibrations in the room / environment
+
+<br>People walking
+<br>Surrounding equipment (Heating / AC, Cooling fans in nearby electronics)
+
+
+<br>Inline air bubbles
+<br>Leaks
+<br>Sensor Calibration
+<br>Temperature and Pressure in the room
+<br>In line flow vectoring
+
+<br>Rotation/Orientation of the needle (how straight it is inserted and which way the opening is facing)
+<br>Location of the needle (how centered it is when inserted)
+
+
+<br>In line Blockages / Deposits
+
+
+<br>Accuracy required for measurement of Eyelasticity™
+<br><br><br><br><br><br><br>Develop a relationship between PDiff (P4-P3) and the flow reported by the flow sensor<br>Note that we do not actually care what the real flow from the iv bag is as of now because we just want the pressure sensor data to match perfectly with the flow sensor data.<br><br><br><br><br>Determine why we were getting inconsistent results between batches in <a data-href="250228 - 250305 MiDOC Flow vs Pressure Testing" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250228-250305-midoc-flow-vs-pressure-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250228 - 250305 MiDOC Flow vs Pressure Testing</a><br>
+<br><br><br>
+<br>A silicone injection site for leak free insertions that holds the needle well is necessary instead of our previous idea of inserting the needle through the side of the iv tube.
+<br>Ensure there are no kinks in the line!
+<br><br><br><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a><br>
+<br><br><br>
+<br>The vertical offset of Pdiff still exists due to some unknown source of error
+
+<br>@ 0 pdiff, there is still a positive flow reported by the sensor for unknown reasons
+
+
+<br>The slope offset of Pdiff has been resolved by taring in air instead of water which is likely due to small flow rates / oscillations in the fluid when taring in water
+<br><br><br><br><br>Figure out what is changing between batches in <a data-href="250307 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250307-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship</a> and <a data-href="250310 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship</a><br>
+<br><br><br>Between batch 2 and 3, new pressure sensors were introduced, and the setup was therefore re purged and connected.<br><br>Overall R²,0.9968323405741951<br>
+Overall RMSE,1.0063382070381353<br>
+Overall Quadratic Coef (x²),0.10716683078647171<br>
+Overall Linear Coef (x),21.62159118673341<br>
+Overall Constant,-1.3544673698865157<br>
+Avg Std Pdiff,0.044983730396195874<br>
+Avg Std Flow,0.6206748849226806<br>Batch,R²,RMSE,Quadratic Coef (x²),Linear Coef (x),Constant<br>
+Batch 2,0.998260128278613,0.9543873023257423,-0.1071458734923217,22.188002291969,-1.0753791850099725<br>
+Batch 3,0.9968323405741951,1.0063382070381353,0.14330034707769418,21.75911534893281,-2.058082038176668<br>
+<img alt="pressure_flow_plot3-5.png" src="lib\media\pressure_flow_plot3-5.png"><img alt="pressure_flow_plot2-5.png" src="lib\media\pressure_flow_plot2-5.png"><img alt="pressure_flow_plot1-5.png" src="lib\media\pressure_flow_plot1-5.png"><br>
+<a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a><br>
+Need to rerun the test with more batches and switch back to a linear fit<br><br> <br><br><br>Determine if the flow sensor is accurate to validate <a data-href="250311 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250311-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250311 - MiDOC Flow vs Pressure Relationship</a> <br>
+<br><br><br><br>Note: the difference in weight is equal to about 1 to 2 drops which could be due to human error relating to when we decide to look at the scale vs stopping the MiDOC<br><a href=".?query=tag:TODO" class="tag" target="_blank" rel="noopener nofollow">#TODO</a> need to run test for longer to get a noticeable change on the graduated cylinder.<br><br>250318 - MiDOC Pressure Sensor Consistency Testing<br><br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0</a><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to varying magnitudes of pressure<br><br>
+<br>Elevated IV Bag -&gt; P3 -&gt; P4 -&gt; Stop Cock
+<br>Fill up the IV bag to 45 mmHg
+<br>Open the stop cock and let the water drain until the pressure drops by 8 mmHg
+<br>Stop the stop cock
+<br>Take 5 s of data with the MiDOC
+<br>Append the data to a file titled with the index of the downstream sensor
+<br>repeat steps (2-6) 4 times
+<br>Once the fluid runs out switch out the downstream pressure sensor with a new one and create a new pressure sensor file
+<br>Load the files and analyze.py to analyze the standard deviation of the pressure differential between the sensors<br><br><img alt="Figure_1.png" src="lib\media\figure_1.png"><br>
+NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img alt="Figure_2.png" src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg<br><br>250317 - Full Procedure Testing<br><br><br>
+<br>Place the sensors on a level surface
+<br>Connect the sensors to the MiDOC<br>
+- P3 is upstream<br>
+- P4 is downstream<br>
+Launch the MiDOC program
+<br>Tare in air (refer to <a data-href="250310 - MiDOC Flow vs Pressure Relationship#Proposed Solution" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\250310-midoc-flow-vs-pressure-relationship.html#Proposed_Solution" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship &gt; Proposed Solution</a>)
+<br>hook up the setup (below)
+
+<br><a data-href="IV bag" href="mount_sinai-notes\quick-notes\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV bag</a> -&gt; <a data-href="Infusion Set" href="mount_sinai-notes\quick-notes\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a> -&gt; <a data-href="Stop Cock" href="mount_sinai-notes\quick-notes\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> 1 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\quick-notes\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; P3 -&gt; <a data-href="microbore tubing" href="mount_sinai-notes\quick-notes\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">microbore tubing</a> -&gt; <a data-href="27g x half inch Needle" href="mount_sinai-notes\quick-notes\27g-x-half-inch-needle.html" class="internal-link" target="_self" rel="noopener nofollow">27g x half inch Needle</a> -&gt; Injection Site -&gt; P4 -&gt; 22g x 1.5"
+<br>Anterior Chamber -&gt; Stop Cock 2 -&gt; 27g x 1/2" needle -&gt; Ambiant
+
+
+<br>Purge the lines ensuring there is absolutely no air anywhere inline
+<br>Secure the sensors to a level surface
+<br>Lower the height of the IV bag to 30 mmHg (the lowest mark)<br>
+Press start on the MiDOC
+<br>Make the incision and insert the AC Maintainer
+<br>Wait 5 s<br>
+Add a test start comment
+<br>Wait 15 s
+<br>Stop the flow using Stop Cock 1<br>
+Add a raise pressure comment
+<br>Raise the height of the IV bag by 13 mmHg (The next mark up  - 8.028 inches)
+<br>Quickly enable the flow using the stop cock
+<br>Wait 15 s
+<br>Repeat steps (10-13) 2X additional times<br>
+Add a test end comment
+<br>Lower the IV bag to the initial height (30 mmHg - the lowest mark)<br>
+Continue monitoring and add procedure comments appropriately
+<br>Quickly enable flow through Stop Cock 2 and (i.e. ) repeat steps (9-15) once.<br>
+Stop the MiDOC
+<br><br><br>Need to ensure every connection makes sense (e.g. luer locks fit together)<br>
+Purging the line after the silicone injection port requires a time delay that is a function of volume after the injection port. Using a thinner iv tubing would be helpful.<br><br>  Labels = {<br>
+7.2: "MiDOC Insertion",<br>
+43: "Stop Cock Off",<br>
+53.8: "Pressure Impulse 1",<br>
+75.5: "Stop Cock Off",<br>
+86.2: "Pressure Impulse 2",<br>
+107.2: "Stop Cock Off",<br>
+122.5: "Pressure Impulse 3",<br>
+169: "Surgical Procedure",<br>
+231.5: "Ouflow Needle Insertion",<br>
+260: "Stop Cock Off",<br>
+270.8: "Pressure Impulse 1",<br>
+286.9: "Stop Cock Off",<br>
+295.9: "Pressure Impulse 2",<br>
+314.2: "Stop Cock Off",<br>
+324: "Pressure Impulse 3",<br>
+}<br>  P3_TARE: 97.559491659042<br>
+P4_TARE: 95.18772751663559<br>
+<img alt="image-73.png" src="lib\media\image-73.png">]]></description><link>mount_sinai-notes\projects\midoc\1-pager\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/1 Pager/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Tue, 18 Mar 2025 18:58:41 GMT</pubDate><enclosure url="lib\media\pressure_flow_plot3-5.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pressure_flow_plot3-5.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
