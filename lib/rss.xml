@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Apr 2025 02:01:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Apr 2025 02:01:19 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Safety Checklist]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Apr 2025 02:08:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Apr 2025 02:07:59 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Safety Checklist]]></title><description><![CDATA[ 
  <br><br>
 <br>Double Gloves
 <br>Absorbent pads covering clothing
@@ -40,7 +40,7 @@ Refer to the diagram above for exact wiring<br>
 2 IV bags are hooked up in parallel at max height for HIGH FLOW (with flow fully open)
 
 <br>
-2 IV bags are hooked up in parallel at max height for the VENTURI SYSTEM (with flow fully open)
+2 IV bags are hooked up in parallel at max height for the VENTURI SYSTEM (with flow fully closed)
 
 <br>
 1 IV bags is hooked up at half height (with flow fully open)
@@ -80,6 +80,7 @@ Gator is primed with its slider fully forward
 <br>Perform the capsulorhexis
 <br>Use the miloop to cutup the lens into 4 or more fragments 
 <br>Insert the gator
+<br>Continuously watch the collection line, and enable flow if there is ever a stoppage
 <br>Move the stop cock to the right to enable high inflow
 <br>Pull back on the slider all the way to enable outflow
 <br>remove the cataract
@@ -122,7 +123,7 @@ IPA bucket is empty and all 4 IV bags are completely full
 <br>Eyes are placed in a glove and placed in the tissue fridge
 <br>All other waste goes in the biohazard bin
 <br>All surfaces get sprayed and wiped with enzymatic solution
-]]></description><link>mount_sinai-notes\projects\m3\!-irrigator-&amp;-extractor-combo\gatorlabs\procedure\250414-gatorlabs-testing-procedure.html</link><guid isPermaLink="false">mount_sinai-notes/projects/m3/! Irrigator &amp; Extractor Combo/Gatorlabs/procedure/250414 - Gatorlabs Testing Procedure.md</guid><pubDate>Tue, 15 Apr 2025 01:58:54 GMT</pubDate><enclosure url="lib\media\20250404_154654.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\20250404_154654.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[27g x half inch Needle]]></title><description><![CDATA[ 
+]]></description><link>mount_sinai-notes\projects\m3\!-irrigator-&amp;-extractor-combo\gatorlabs\procedure\250414-gatorlabs-testing-procedure.html</link><guid isPermaLink="false">mount_sinai-notes/projects/m3/! Irrigator &amp; Extractor Combo/Gatorlabs/procedure/250414 - Gatorlabs Testing Procedure.md</guid><pubDate>Tue, 15 Apr 2025 02:07:42 GMT</pubDate><enclosure url="lib\media\20250404_154654.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\20250404_154654.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[27g x half inch Needle]]></title><description><![CDATA[ 
  <br>Company: Beckton Dickinson<br>
 Item: BD PrecisionGlide Needle 27g x 1/2"]]></description><link>mount_sinai-notes\projects\midoc\hardware\27g-x-half-inch-needle.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Hardware/27g x half inch Needle.md</guid><pubDate>Tue, 18 Mar 2025 02:22:51 GMT</pubDate></item><item><title><![CDATA[BOM and Gerber View]]></title><description><![CDATA[ 
  <br><a data-href="ibom.html" href="attachments\ibom.html" class="internal-link" target="_self" rel="noopener nofollow">ibom.html</a><br>
