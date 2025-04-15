@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Apr 2025 01:40:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Apr 2025 01:40:18 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[27g x half inch Needle]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[mount_sinai-notes-SHARED]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>mount_sinai-notes-SHARED</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Apr 2025 01:44:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Apr 2025 01:44:38 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Safety Checklist]]></title><description><![CDATA[ 
+ <br><br>
+<br>Double Gloves
+<br>Absorbent pads covering clothing
+<br>Spill kit nearby
+<br>Move the ultrasonic cleaner to the wet lab area and ensure its filled with enzymatic cleaner
+<br>Filled spray bottle with enzymatic cleaner
+<br>Note
+Nothing leaves or enters the wet lab area unless properly disinfected.
+<br><br>
+<br>Check assembly<br><br><br><br>
+<br>Inspect all parts for cracks.
+<br>Ensure all O-rings are complete with no chips or divots
+<br>Ensure all parts are available per BOM.
+<br><br>
+<br>69 mm from tip to back of frenulum
+<br>Ensure tongue lines up perfectly with the opening in the tip<br>
+of the frenulum to tip of tongue (after sharpened)
+<br><br>
+<br>Assemble O-rings per the below diagrams
+<br>INCLUDE 1 ADDITIONAL 1x5 ORING RIGHT AFTER TOP SPRING
+<br><img height="500" src="lib\media\20250404_154654.jpg" style="width: 320px; max-width: 100%;">
+<br><img height="500" src="lib\media\20250404_154643.jpg" style="width: 387px; max-width: 100%;">
+
+<br>Ensure there are no air bubbles when siphoning water to the ground
+
+<br>Press the button and move the slider while siphoning to check button and valve seal
+<br>With the gator fully primed and the valve fully forward to stop flow, leave the gator untouched for 30 seconds and ensure the water level in the gators tube to ground does not change in height
+
+
+<br>Dripper is cut open and the tubing is inserted directly onto the drippers exit
+
+<br>The filter tab is open
+
+
+<br>All IV tubing is cut from the drippers tubing
+<br>M3 Flow Diagram<br><br><br>
+Refer to the diagram above for exact wiring<br>
+<br>
+2 IV bags are hooked up in parallel at max height for HIGH FLOW (with flow fully open)
+
+<br>
+2 IV bags are hooked up in parallel at max height for the VENTURI SYSTEM (with flow fully open)
+
+<br>
+1 IV bags is hooked up at half height (with flow fully open)
+
+<br>
+The High Flow System, Low Flow System, and the Irrigator tubing meet at a three way stop cock which is set to allow flow from the LOW FLOW SYSTEM to the irrigiator
+
+<br>The inlet needle is the modified 17G cannula inlet
+
+
+<br>
+On the irrigators inlet tubing is a rolling slider that is set to the OFF position.
+
+<br>
+The inlet needle is installed in the <a data-href="Offhand Large Bore Design" href="Offhand Large Bore Design" class="internal-link" target="_self" rel="noopener nofollow">Offhand Large Bore Design</a>
+
+<br>
+The tubing to the collector is inside the collector bucket and the collector bucket is fully empty
+
+<br>
+All 5 IV bags are completely full
+
+<br>
+ Gator is primed with its slider fully forward
+
+<br><br>
+<br>Make side port incision
+<br>Enable flow in the irrigator using the rolling slider
+<br>Insert offhand into the eye
+<br>Make the main incision
+<br>Perform the capsulorhexis
+<br>Use the miloop to cutup the lens into 4 or more fragments 
+<br>Insert the gator
+<br>Move the stop cock to the right to enable high inflow
+<br>Pull back on the slider all the way to enable outflow
+<br>remove the cataract
+<br>remove the gator
+<br><br>
+<br>
+Remove the tail, the spring, and the mesh
+
+<br>
+Clear out the mesh, tip, and interior of all debris
+
+<br>
+Check and reinsert any missing O-Rings
+
+<br>Insert the mesh
+<br>insert the spring
+<br>insert and screw on the tail
+
+
+<br>
+Ensure there are no air bubbles when siphoning water to the ground
+
+<br>Press the button and move the slider while siphoning to check button and valve seal
+
+
+<br>
+The stopcock is off in the direction of the offhand
+
+<br>
+The outlet to the gator is placed in the empty IPA Bucket
+
+<br>
+IPA bucket is empty and all 4 IV bags are completely full
+
+<br><br>
+<br>All instruments go in the ultrasonic cleaner with the enzymatic solution on the highest heating setting with the lid on
+<br>All sharps get disposed of in a sharps container
+<br>All downstream tubing gets disposed of in a biohazard bin
+<br>Enzymatic solution is added to the collection container, then all the fluid is emptied and the container is rinsed with enzymatic solution.
+<br>Eyes are placed in a glove and placed in the tissue fridge
+<br>All other waste goes in the biohazard bin
+<br>All surfaces get sprayed and wiped with enzymatic solution
+]]></description><link>mount_sinai-notes\projects\m3\!-irrigator-&amp;-extractor-combo\gatorlabs\procedure\250414-gatorlabs-testing-procedure.html</link><guid isPermaLink="false">mount_sinai-notes/projects/m3/! Irrigator &amp; Extractor Combo/Gatorlabs/procedure/250414 - Gatorlabs Testing Procedure.md</guid><pubDate>Tue, 15 Apr 2025 01:38:30 GMT</pubDate><enclosure url="lib\media\20250404_154654.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\20250404_154654.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[27g x half inch Needle]]></title><description><![CDATA[ 
  <br>Company: Beckton Dickinson<br>
 Item: BD PrecisionGlide Needle 27g x 1/2"]]></description><link>mount_sinai-notes\projects\midoc\hardware\27g-x-half-inch-needle.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Hardware/27g x half inch Needle.md</guid><pubDate>Tue, 18 Mar 2025 02:22:51 GMT</pubDate></item><item><title><![CDATA[BOM and Gerber View]]></title><description><![CDATA[ 
  <br><a data-href="ibom.html" href="attachments\ibom.html" class="internal-link" target="_self" rel="noopener nofollow">ibom.html</a><br>
@@ -100,37 +218,7 @@ Stop the MiDOC
 <a data-href="250310 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250310-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship</a><br>
 <a data-href="250311 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250311-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250311 - MiDOC Flow vs Pressure Relationship</a><br><br>These are some tests that verify the accuracy of our pressure sensors<br>
 <a data-href="250318 - MiDOC Pressure Sensor Consistency Testing" href="mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250318 - MiDOC Pressure Sensor Consistency Testing</a><br><br>An explanation of each source of error, it’s effect on each variable, and the changes we made to the procedure to mitigate it.<br>
-<a data-href="MiDOC - Potential Sources of Error Analysis#All Potential Sources of Error" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#All_Potential_Sources_of_Error" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Analysis &gt; All Potential Sources of Error</a>]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Thu, 27 Mar 2025 13:02:19 GMT</pubDate><enclosure url="lib\media\20250324_155159.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\20250324_155159.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Procedure]]></title><description><![CDATA[ 
- <br><br>
-<br>Place the sensors on a level surface
-<br>Connect the sensors to the MiDOC<br>
-- P3 is upstream<br>
-- P4 is downstream<br>
-Launch the MiDOC program
-<br>Tare in air
-<br>hook up the setup (below)
-
-<br>2x, <a data-href="IV Bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV Bag</a> (50 mmHg, 30 mmHg if IOP is &gt;30)  -&gt; <a data-href="Infusion Set" href="mount_sinai-notes\projects\midoc\hardware\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a> -&gt; 3 port <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> -&gt; <a data-href="Microbore Tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">Microbore Tubing</a> -&gt; P3 -&gt; <a data-href="Microbore Tubing" href="mount_sinai-notes\projects\midoc\hardware\microbore-tubing.html" class="internal-link" target="_self" rel="noopener nofollow">Microbore Tubing</a> -&gt; <a data-href="27g x half inch Needle" href="mount_sinai-notes\projects\midoc\hardware\27g-x-half-inch-needle.html" class="internal-link" target="_self" rel="noopener nofollow">27g x half inch Needle</a> -&gt; Injection Site -&gt; P4 -&gt; 22g x 1/2" Needle
-
-
-<br>Squeeze the Infusion Set and open the air relief valve until the vial is completely full
-<br>Purge the lines ensuring there is absolutely no air anywhere inline
-<br>Secure the sensors to a level surface
-<br>Enable the lower flow using the stop cock<br>
-Press start on the MiDOC
-<br>Make the incision and insert the needle into the anterior chamber<br>
-Add a "MiDOC insertion" comment
-<br>Wait 15 s
-<br>Quickly enable the higher flow using the stop cock<br>
-Add a "Raise Bag Step X" comment
-<br>Wait 15 s
-<br>Quickly enable the lower flow using the stop cock<br>
-Add a "Raise Bag Step X" comment
-<br>Repeat steps (10-13) 3X additional times<br>
-Continue monitoring and add procedure comments appropriately
-<br>After surgical intervention repeat steps (10-14)<br>
-Stop the MiDOC
-]]></description><link>mount_sinai-notes\projects\midoc\procedure\midoc-procedure-250328.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Procedure/MiDOC Procedure - 250328.md</guid><pubDate>Fri, 28 Mar 2025 16:26:55 GMT</pubDate></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
+<a data-href="MiDOC - Potential Sources of Error Analysis#All Potential Sources of Error" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#All_Potential_Sources_of_Error" class="internal-link" target="_self" rel="noopener nofollow">MiDOC - Potential Sources of Error Analysis &gt; All Potential Sources of Error</a>]]></description><link>mount_sinai-notes\projects\midoc\overview\midoc-technical-breakdown-250317.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Overview/MiDOC Technical Breakdown - 250317.md</guid><pubDate>Thu, 27 Mar 2025 13:02:19 GMT</pubDate><enclosure url="lib\media\20250324_155159.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\20250324_155159.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Goal]]></title><description><![CDATA[<a class="tag" href="?query=tag:TODO" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#TODO</a> 
  <br><br>Determine if the flow sensor is accurate to validate <a data-href="250311 - MiDOC Flow vs Pressure Relationship" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250311-midoc-flow-vs-pressure-relationship.html" class="internal-link" target="_self" rel="noopener nofollow">250311 - MiDOC Flow vs Pressure Relationship</a> <br><br>
 <br>let water drip into cup at a constant flow rate through the flow sensor and a 27g x 1/2" needle
 <br>Compare weight with the integrated flow wrt time from the sensiron sensor with the volume from a graduated cylinder
@@ -184,7 +272,7 @@ Purging the line after the silicone injection port requires a time delay that is
 295.9: "Pressure Impulse 2",<br>
 314.2: "Stop Cock Off",<br>
 324: "Pressure Impulse 3",<br>
-}<br>  <img src="lib\media\image-73.png"><br><img src="lib\media\image-83.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 24 Mar 2025 20:20:21 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[250321 - Full Procedure Testing]]></title><description><![CDATA[ 
+}<br>  <img alt="image-73.png" src="lib\media\image-73.png"><br><img alt="image-83.png" src="lib\media\image-83.png">]]></description><link>mount_sinai-notes\projects\midoc\testing\full-procedure-porcine-testing\250317-full-procedure-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/full procedure porcine testing/250317 - Full Procedure Testing.md</guid><pubDate>Mon, 24 Mar 2025 20:20:21 GMT</pubDate><enclosure url="lib\media\image-73.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image-73.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[250321 - Full Procedure Testing]]></title><description><![CDATA[ 
  <br> Goal<br>
 Run through the full MiDOC procedure on a porcine eye. <br>A 27 gauge needle is inserted and removed into the AC to create a small leak that is not percievable with the human eye. <br>Verify if we can observe the increase in outflow facility after this leak is created. <br><br>
 <br>Place the sensors on a level surface
@@ -286,7 +374,7 @@ Flow fit R² for Post Raise Bag Step 10: 0.7791
 <br>repeat steps (2-6) 4 times
 <br>Once the fluid runs out switch out the downstream pressure sensor with a new one and create a new pressure sensor file
 <br>Load the files and analyze.py to analyze the standard deviation of the pressure differential between the sensors<br><br><img src="lib\media\figure_1.png"><br>
-NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg]]></description><link>mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md</guid><pubDate>Tue, 18 Mar 2025 18:57:54 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\figure_1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
+NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg]]></description><link>mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html</link><guid isPermaLink="false">mount_sinai-notes/projects/MiDOC/Testing/pressure sensor consistency testing/250318 - MiDOC Pressure Sensor Consistency Testing.md</guid><pubDate>Tue, 15 Apr 2025 01:44:40 GMT</pubDate><enclosure url="lib\media\figure_1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\figure_1.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Objective]]></title><description><![CDATA[ 
  <br><br>To identify sources of error for the MiDOC device, their magnitudes, and the methods to mitigate them.<br><br>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Movement of the Eye, Patient, &amp; Surgeon" data-href="MiDOC - Potential Sources of Error Analysis#Movement of the Eye, Patient, &amp; Surgeon" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Movement_of_the_Eye,_Patient,_&amp;_Surgeon" class="internal-link" target="_self" rel="noopener nofollow">Movement of the eye / patient / surgeon</a>
 <br><a data-tooltip-position="top" aria-label="MiDOC - Potential Sources of Error Analysis > Oscillations of the IV Bag" data-href="MiDOC - Potential Sources of Error Analysis#Oscillations of the IV Bag" href="mount_sinai-notes\projects\midoc\testing\verification\midoc-potential-sources-of-error-analysis.html#Oscillations_of_the_IV_Bag" class="internal-link" target="_self" rel="noopener nofollow">Oscillations of the IV Bag</a>
@@ -338,7 +426,16 @@ where:<br>
  <br>We need to ensure the operating table is level prior to completing the test.<br>This was discovered/demonstrated in <a data-href="250310 - MiDOC Flow vs Pressure Relationship#Batch 4" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250310-midoc-flow-vs-pressure-relationship.html#Batch_4" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship &gt; Batch 4</a> in which the slope of the lines between batches was roughly equivalent but there existed an offset between them of ~5  for the same pressure drop.<br><br>TBD<br><br>Effect: Air bubbles trapped in the system introduce compliance, reducing the measured pressure difference.<br>
 Mitigation: Lines must be purged entirely prior to use of the MiDOC. Failure to do so will result in wildly varying results. Further, when priming the <a data-href="Infusion Set" href="mount_sinai-notes\projects\midoc\hardware\infusion-set.html" class="internal-link" target="_self" rel="noopener nofollow">Infusion Set</a>, we must open the air relief valve and squeeze the vial until largely full to ensure no air bubbles get sucked down the iv tube from the falling droplets.<br>This is demonstrated in <a data-href="250310 - MiDOC Flow vs Pressure Relationship#Batch 3" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250310-midoc-flow-vs-pressure-relationship.html#Batch_3" class="internal-link" target="_self" rel="noopener nofollow">250310 - MiDOC Flow vs Pressure Relationship &gt; Batch 3</a> where the flow calculations are off by 10 to 15  between batches when there is air in line. <br><br>Effect: Any leak between the pressure sensors or after the pressure sensors in line will overshadow any calculation<br>
 Mitigation: Ensure the calculated flow is near zero when the stop cock is closed prior to the test. Use a proper silicon injection site instead of putting a needle through the side of an IV tube.<br>Was likely the major source of error in <a data-href="250307 - MiDOC Flow vs Pressure Relationship#Batch 1 and 2" href="mount_sinai-notes\projects\midoc\testing\flow-vs-pressure-testing\30g\250307-midoc-flow-vs-pressure-relationship.html#Batch_1_and_2" class="internal-link" target="_self" rel="noopener nofollow">250307 - MiDOC Flow vs Pressure Relationship &gt; Batch 1 and 2</a> with a maximum measured difference in flow of around 5 for the same pressure drop <br><br>Effect: Raising the <a data-href="IV Bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV Bag</a> while being connected to the pressure sensors creates a large amount of oscillations and data noise from that inhibits proper measurement.<br>Mitigation: Using a <a data-href="Stop Cock" href="mount_sinai-notes\projects\midoc\hardware\stop-cock.html" class="internal-link" target="_self" rel="noopener nofollow">Stop Cock</a> in between the <a data-href="IV Bag" href="mount_sinai-notes\projects\midoc\hardware\iv-bag.html" class="internal-link" target="_self" rel="noopener nofollow">IV Bag</a> and <a data-href="Pressure Sensor" href="mount_sinai-notes\projects\midoc\hardware\pressure-sensor.html" class="internal-link" target="_self" rel="noopener nofollow">Pressure Sensor</a> makes it possible to stop the flow before raising the bag. This prevents the vibrations caused by the shaking of the IV bag from transmitting to the pressure sensors.<br><br>Effect: The scaling and accuracy of the pressure sensors is documented in the testing: <a data-href="250318 - MiDOC Pressure Sensor Consistency Testing" href="mount_sinai-notes\projects\midoc\testing\pressure-sensor-consistency-testing\250318-midoc-pressure-sensor-consistency-testing.html" class="internal-link" target="_self" rel="noopener nofollow">250318 - MiDOC Pressure Sensor Consistency Testing</a><br>
-<br><br><br><img src="lib\media\figure_1.png"><br>
+<br><br><a rel="noopener nofollow" class="external-link" href="https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0" target="_blank">https://www.dropbox.com/scl/fo/4gce2eovt7grbk3m6cl60/APTSBY7XXUmeLG7K-A80lY0?rlkey=k703vfad895gahunf0p4bnkwn&amp;dl=0</a><br><br>Determine how consistently different pressure sensors of the same type scale in output when exposed to varying magnitudes of pressusre<br><br>
+<br>Elevated IV Bag -&gt; P3 -&gt; P4 -&gt; Stop Cock
+<br>Fill up the IV bag to 45 mmHg
+<br>Open the stop cock and let the water drain until the pressure drops by 8 mmHg
+<br>Stop the stop cock
+<br>Take 5 s of data with the MiDOC
+<br>Append the data to a file titled with the index of the downstream sensor
+<br>repeat steps (2-6) 4 times
+<br>Once the fluid runs out switch out the downstream pressure sensor with a new one and create a new pressure sensor file
+<br>Load the files and analyze.py to analyze the standard deviation of the pressure differential between the sensors<br><br><img src="lib\media\figure_1.png"><br>
 NOTE: The sensors are not tared so the important attribute of this plot is that the lines are consistent and horizontal, not that they should all lie on the same y value.<br><img src="lib\media\figure_2.png"><br>Overall Average Standard Deviation: 0.03 mm Hg<br>Mitigation: No mitigation is needed on this front as the average standard deviation of these sensors is 0.03 mm Hg.<br><br>Effect: The effect of the temperature on the flow calculation is shown below:<br><br>where:<br>
 <br>​ is the sensor’s temperature coefficient (Pa/°C).
 <br> is the operating temperature.
